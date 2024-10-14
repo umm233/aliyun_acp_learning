@@ -1,5 +1,28 @@
 import os
+import json
 
+def load_config(filepath="config.json"):
+    """Loads configuration data from a JSON file.
+
+    Args:
+        filepath: The path to the JSON configuration file. Defaults to "config.json".
+
+    Returns:
+        A dictionary containing the configuration data, or None if an error occurs.
+    """
+    try:
+        with open(filepath, 'r') as f:
+            config_data = json.load(f)
+            return config_data
+    except FileNotFoundError:
+        print(f"Error: Configuration file '{filepath}' not found.")
+        return None
+    except json.JSONDecodeError:  # Catch JSON decoding errors
+        print(f"Error: Invalid JSON format in '{filepath}'.")
+        return None
+    except Exception as e: # Catch other potential errors
+        print(f"An unexpected error occurred: {e}")
+        return None
 def create_directory(file_path):
     """
     创建文件目录。
