@@ -16,5 +16,13 @@ llama-index-llms-dashscope==0.1.2
 matplotlib==3.9.2
 ragas==0.1.9
 langchain_community==0.2.17
-python-dotenv
 imageio-ffmpeg==0.5.1
+pdf2image==1.17.0
+python-dotenv==1.0.1
+requests==2.32.3
+dash==2.18.1
+moviepy==1.0.3
+ffmpeg-python==0.2.0
+pydub==0.25.1
+natsort==8.4.0
+alibabacloud_bailian20231229==1.8.2
