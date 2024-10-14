@@ -273,6 +273,26 @@
 
 本考纲旨在为考生提供考试内容的普遍方向，考试范围不仅限于文中提及的部分，可能还包括其他相关未列明的内容。
 
+## 教程及代码
+本教程假设你已经初步了解并使用过 python、git，因此不会涉及如何安装 python、pip、git 等基础工具。
+
+本教程github地址如下：
+```
+git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
+cd aliyun_acp_learning
+pip install -r requirements.txt
+```
+
+如果遇到网络问题，GitHub无法使用，可以选择从atomgit来获取代码库
+
+#
+```
+git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
+cd aliyun_acp_learning
+pip install -r requirements.txt
+```
+
+
 
 ## :pushpin:问题反馈
 
