@@ -12,7 +12,8 @@ uvicorn==0.30.6
 fastapi==0.112.0
 llama-index-postprocessor-dashscope-rerank-custom==0.1.0
 simplejson==3.19.3
-llama-index-llms-dashscope==0.1.2
+llama-index-llms-dashscope
+llama-index-readers-dashscope
 matplotlib==3.9.2
 ragas==0.1.9
 langchain_community==0.2.17
@@ -26,3 +27,6 @@ ffmpeg-python==0.2.0
 pydub==0.25.1
 natsort==8.4.0
 alibabacloud_bailian20231229==1.8.2
+pandas==2.0.3
+alibabacloud_green20220302==2.2.11
+oss2==2.19.0
