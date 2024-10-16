@@ -11,7 +11,7 @@ llama-index-core==0.10.67
 llama-index-llms-dashscope
 llama-index-readers-dashscope
 uvicorn==0.30.6
-fastapi==0.112.0
+fastapi==0.114.1
 llama-index-postprocessor-dashscope-rerank-custom==0.1.0
 simplejson==3.19.3
 matplotlib==3.9.2
@@ -21,3 +21,4 @@ alibabacloud_bailian20231229==1.8.2
 pandas==2.0.3
 alibabacloud_green20220302==2.2.11
 oss2==2.19.0
+vllm==0.6.2
