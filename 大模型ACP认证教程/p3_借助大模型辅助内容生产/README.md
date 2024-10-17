@@ -2,10 +2,10 @@
 
 <video width="960" height="540" controls playbackRate="1.2">
     <source src="https://cloud.video.taobao.com/vod/JIacNiSeM_POjG-GT_PiAjhvIcRGx4xsreQt9Mc-AJU.mp4" type="video/mp4">
-    [【如视频不能正常播放，请点击这里观看演示视频】](https://cloud.video.taobao.com/vod/JIacNiSeM_POjG-GT_PiAjhvIcRGx4xsreQt9Mc-AJU.mp4)
+    
 </video>
 
->注：该视频基于以下图文内容，通过大模型自动生成。
+>注：该视频基于以下图文内容，通过大模型自动生成。[【如果演示视频不能正常播放，请点击这里】](https://cloud.video.taobao.com/vod/JIacNiSeM_POjG-GT_PiAjhvIcRGx4xsreQt9Mc-AJU.mp4)
 
 ## 以下是文字版
 
