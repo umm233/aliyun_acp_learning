@@ -4,7 +4,7 @@
     <source src="https://cloud.video.taobao.com/vod/YGvLqNlVbkavLOayS3wu6BGBv5YVpBXZW4Dx7vv-94Y.mp4" type="video/mp4">
 </video>
 
->注：该视频基于以下图文内容，通过大模型自动生成。
+>注：该视频基于以下图文内容，通过大模型自动生成。[【如果演示视频不能正常播放，请点击这里】](https://cloud.video.taobao.com/vod/YGvLqNlVbkavLOayS3wu6BGBv5YVpBXZW4Dx7vv-94Y.mp4)
 
 ## 以下是文字版
 
