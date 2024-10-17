@@ -1,5 +1,13 @@
 # 3.0 项目背景
 
+<video width="960" height="540" controls playbackRate="1.2">
+    <source src="https://cloud.video.taobao.com/vod/JIacNiSeM_POjG-GT_PiAjhvIcRGx4xsreQt9Mc-AJU.mp4" type="video/mp4">
+</video>
+
+>注：该视频基于以下图文内容，通过大模型自动生成。
+
+## 以下是文字版
+
 如前所述，你在一家教育内容开发公司工作，公司的主营业务是开发高质量的学习课程。
 
 <img src="https://gw.alicdn.com/imgextra/i4/O1CN011Usyft20IMXbkuqlS_!!6000000006826-0-tps-1024-1024.jpg" alt="一堆文件" width="400px">
@@ -17,4 +25,4 @@
 <img src="https://gw.alicdn.com/imgextra/i4/O1CN01vvIPYz1NHCWFDwzzJ_!!6000000001544-0-tps-1024-1024.jpg" alt="一堆文件" width="400px">
 
 看到这项技术的潜力，公司领导决定委托你负责探索如何将大模型应用于课程制作流程。他们希望通过这项创新来彻底解决当前面临的问题，提升工作效率、降低成本、缩短制作周期，从而应对市场的快速变化和激烈竞争。
-接下来，你将进行项目实操，以期实现这一目标。
+接下来，你将动手实现这一目标。
