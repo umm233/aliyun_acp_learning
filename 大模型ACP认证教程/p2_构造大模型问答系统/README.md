@@ -1,5 +1,13 @@
 # 2.0 项目背景
 
+<video width="960" height="540" controls playbackRate="1.2">
+    <source src="https://cloud.video.taobao.com/vod/YGvLqNlVbkavLOayS3wu6BGBv5YVpBXZW4Dx7vv-94Y.mp4" type="video/mp4">
+</video>
+
+>注：该视频基于以下图文内容，通过大模型自动生成。
+
+## 以下是文字版
+
 在这一章节，你将开始本课程的第一个项目。
 你在一家教育内容开发公司工作，随着新员工的持续加入，频繁的答疑需求导致了显著的时间与资源成本。
 
@@ -29,4 +37,4 @@
 
 <img src="https://gw.alicdn.com/imgextra/i1/O1CN01UZmxgz1uY2OowazMq_!!6000000006048-0-tps-1024-1024.jpg" alt="一堆文件" width="400px">
 
-接下来，你将进行项目实操，以期实现这一目标。
+接下来，你将动手实现这一目标。
