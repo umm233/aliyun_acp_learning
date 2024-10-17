@@ -1,42 +1,102 @@
-# 1. 计算环境准备
+## 🚄 前言 
 
-ModelScope为用户提供了免费的算力支持，你无需进行繁琐的环境准备流程，仅需打开网页，便可在线编写与运行程序。
+阿里云大模型ACP课程提供了丰富的Python代码教程。为了能够动手实践这些教程，你需要准备好计算环境，然而计算环境的准备并不轻松。
 
-## 步骤一：前往ModelScope官网
+阿里云的PAI平台为用户提供了免费的算力支持，你无需进行繁琐的环境准备流程，仅需打开网页，便可在线编写与运行程序。我们建议你通过PAI的DSW平台进行课程的学习。
 
-前往[ModelScope官网](https://modelscope.cn/my/overview)并进行登录。
 
-> 如果你之前没有注册过ModelScope账号，需要注册ModelScope。
+### 步骤一：前往PAI控制台
 
-## 步骤二：启动Notebook
-
-登录之后点击左侧边栏的**我的Notebook。**
-
-<img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQg5WLA2vqxow/img/a3d0d3a9-5efd-4e7e-b739-7933be86749c.png" alt="我的notebook" width="600px">
-
-你可能需要绑定自己的阿里云资源。在绑定完成后，选择CPU环境，预装镜像选择下图版本。点击**查看Notebook**。
-
-<img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQg5WLA2vqxow/img/04693be4-9b35-4e55-aa4b-f6a364208440.png" alt="查看Notebook" width="600px">
-
-在Launcher中，点击下图图标，即可创建一个ipynb格式的Notebook文件。
-
-<img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQg5WLA2vqxow/img/00040c4d-f1e5-4958-b98a-5d948839fb91.png" alt="创建Notebook" width="300px">
-
-## 步骤三：在Notebook中运行Hello World
-
-在输入框中输入`print("hello world!")`，点击Cell（代码块）左边的运行按钮，或使用键盘的`shift+enter`，就可以获得如下结果：
-
-<img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQg5WLA2vqxow/img/18563090-10cb-4b2f-b3fc-41fb61b3a926.png" alt="查看结果" width="300px">
-
-## 常见问题
-
-1.  如何删除或添加代码块？  
-    在当前选中的代码块点击添加按钮，就会在下方添加一个代码块；在当前选中的代码块点击删除按钮，就会删除当前代码块。  
-    <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQg5WLA2vqxow/img/538cf4ab-a537-42a0-b43f-0c75148b05c0.png" alt="删除按钮" width="400px">
+1.  首先你需要前往[PAI控制台](https://pai.console.aliyun.com/?regionId=cn-hangzhou#/workspace/overview)。
     
-2.  Notebook中除了运行python代码，能添加其它内容吗？  
-    你可以添加Markdown格式的内容。在选中代码块之后，点击下图所示位置，将其更改为Markdown，就可以将指定代码块设置为Markdown格式。  
-    <img src="https://alidocs.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQg5WLA2vqxow/img/e09b29b0-cfc3-41b1-9e2d-b1acf32cda6c.png" alt="删除按钮" width="400px">
+2.  如果你没有开通PAI平台服务，根据指引开通PAI并创建默认工作空间，点击**确认开通并创建默认工作空间**。等待开通完成后，点击**进入默认工作空间**。
     
-3.  我的文件会一直保存在ModelScope平台吗？  
-    你的ipynb文件会持久化保存在ModelScope平台上，但是其它文件会在4个小时的有效期结束后清空。更多关于ModelScope Notebook的问题，请参考[Notebook参考文档](https://modelscope.cn/docs/Notebook%E5%8A%9F%E8%83%BD%E6%A6%82%E8%BF%B0)。
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01SxUAgU1GEj4jiwFYW_!!6000000000591-0-tps-2430-1736.jpg" alt="我的notebook" width="500px">
+
+3.  点击左侧边栏的**交互式建模（DSW）**，点击**新建实例**。
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01CrbZLb1OEk0wgkBQe_!!6000000001674-0-tps-846-1076.jpg" alt="我的notebook" width="300px">
+
+
+### 步骤二：启动DSW实例
+
+在新建实例页面，你需要填写三个参数：
+
+*   **实例名称**：此处以**aliyun\_acp\_learning**为例。
+    
+
+*   **资源规格**：推荐选择**免费试用页签**中的**ecs.g6.xlarge**，无需选择GPU规格，这个规格足以运行本课程的项目；
+    
+
+> 请注意，免费试用的资源包需要领取，用于抵扣DSW实例的费用。领取链接在资源规格页中的**免费试用**页签可以看到。
+
+*   **镜像**：推荐选择**modelscope:1.18.0-pytorch2.3.0-cpu-py310-ubuntu22.04**（需要将芯片类型切换为CPU）。
+    
+
+其它保持默认，单击**确定**，完成实例的创建，实例创建通常不会超过5分钟。
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01U9Ojw01PuFWajHfhq_!!6000000001900-0-tps-1902-1192.jpg" alt="我的notebook" width="600px">
+
+当实例状态为运行中时，单击**操作**列中的**打开**，就可以启动DSW实例了。
+
+### 步骤三：获取大模型ACP课程的代码仓库
+
+我们的代码仓库存储在了github与atomgit上。你可以通过在Terminal中输入git clone命令来获取我们的代码仓库。
+
+在Launcher中，点击下图的位置，即可打开一个Terminal窗口。  
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01DsVZwx1C7cSrXVeYQ_!!6000000000034-0-tps-1082-984.jpg" alt="打开Terminal" width="300px"><br>
+
+在Terminal中输入以下命令：
+
+```bash
+git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
+```
+如果遇到网络问题，请从atomgit获取。将命令修改为：
+```bash
+git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
+```
+
+
+运行完成后，你就可以在文件树中看到aliyun\_acp\_learning文件夹了。
+
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01WLnveT1oCcBZUt7tP_!!6000000005189-0-tps-870-480.jpg" alt="打开Terminal" width="300px"><br>
+
+### 步骤四：配置环境变量并安装依赖
+
+你需要前往[百炼API Key管理界面](https://bailian.console.aliyun.com/?apiKey=1)获取API Key，这样才能够使用大模型的API服务。
+
+将API Key配置为环境变量可以保护你的账户安全，这样即使你的代码仓库公开，API Key也不会泄漏。
+
+为了方便你进行环境变量的配置，我们封装好了一个load\_key函数，函数会自动辅助你进行环境变量的配置。
+
+请你在DSW的文件树中打开代码仓库的：**大模型ACP认证教程**/**p1\_课程准备**/**1\_0\_计算环境准备.ipynb**，运行下边的代码块，即可自动配置环境变量，你可以通过print方法查看配置是否生效。
+
+> 该环境变量配置方法仅对当前Notebook生效。
+
+```python
+import sys
+import os
+sys.path.append("../")
+from config.load_key import load_key
+load_key()
+print(os.environ["DASHSCOPE_API_KEY"])
+```
+
+### 步骤五：安装依赖
+
+在 1_0_计算环境准备.ipynb的对应位置运行以下命令，安装本课程所需的依赖环境。
+
+> 由于依赖项较多，你可能需要等待3-5分钟。
+
+```bash
+! pip install -r /mnt/workspace/aliyun_acp_learning/requirements.txt
+```
+
+
+## 总结
+你已经成功获取到了我们的代码仓库，并安装好了计算环境。
+
+接下来你可以在文件树中点击 aliyun_acp_learning-大模型ACP认证教程文件夹-p2_构造大模型问答系统 文件夹，就能看到下一章的教程内容了。祝你在之后的课程学习之旅一切顺利！
+
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01OMsFi61C9S3FlXOZL_!!6000000000038-0-tps-964-1270.jpg" alt="第二章内容" width="300px">
