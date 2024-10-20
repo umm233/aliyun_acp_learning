@@ -62,6 +62,71 @@ git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01WLnveT1oCcBZUt7tP_!!6000000005189-0-tps-870-480.jpg" alt="打开Terminal" width="300px"><br>
 
+
+#### 拓展阅读：创建Conda环境
+
+为了标准化环境变量设置，我们提供一组创建环境变量的命令行。
+
+- 如果你在自己的个人电脑上安装代码，你可以考虑创建项目专属的环境变量
+- 如果你使用临时的云服务，一关机就会丢掉已经安装的依赖项，你也可以考虑忽略这一步。
+
+<style>
+    table {
+      width: 80%;
+      margin: 20px; /* Center the table */
+      border-collapse: collapse; /* Collapse borders for a cleaner look */
+      font-family: sans-serif; 
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd; /* Light gray border */
+    }
+
+    th {
+      background-color: #f2f2f2; /* Light gray background for header */
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) { /* Zebra striping */
+      background-color: #f9f9f9;
+    }
+
+    tr:hover { /* Highlight row on hover */
+      background-color: #e0f2ff; /* Light blue */
+    }
+</style>
+<table width="80%">
+<tbody>
+<tr>
+<td>
+
+```shell
+conda create -n learnacp python=3.9.12 -y -q
+conda activate learnacp
+```
+</td>
+</tr>
+</tbody>
+</table>
+
+执行以下命令可以将 learnacp 注册到 notebook 的环境变量列表中，这样你在 notebook 执行时可以指定 learnacp 环境变量并进行操作。
+
+<table width="80%">
+<tbody>
+<tr>
+<td>
+
+```shell
+pip install ipykernel
+python -m ipykernel install --user --name learnacp --display-name "py39(learnacp)"
+```
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 步骤四：配置环境变量并安装依赖
 
 你需要前往[百炼API Key管理界面](https://bailian.console.aliyun.com/?apiKey=1)获取API Key，这样才能够使用大模型的API服务。
