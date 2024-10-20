@@ -63,7 +63,7 @@ git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01WLnveT1oCcBZUt7tP_!!6000000005189-0-tps-870-480.jpg" alt="打开Terminal" width="300px"><br>
 
 
-#### 拓展阅读：创建Conda环境
+#### 拓展阅读：创建Conda环境（可选）
 
 为了标准化环境变量设置，我们提供一组创建环境变量的命令行。
 
