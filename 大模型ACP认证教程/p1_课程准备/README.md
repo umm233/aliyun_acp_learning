@@ -111,7 +111,7 @@ conda activate learnacp
 </tbody>
 </table>
 
-执行以下命令可以将 learnacp 注册到 notebook 的环境变量列表中，这样你在 notebook 执行时可以指定 learnacp 环境变量并进行操作。
+执行以下命令可以将 learnacp 注册到 notebook 的环境变量列表中，这样你在 notebook 中指定 learnacp 环境后开始编码。比如在python 3.9.12环境中工作。
 
 <table width="80%">
 <tbody>
