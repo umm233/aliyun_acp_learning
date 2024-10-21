@@ -1,7 +1,7 @@
 gradio==4.32.0
 faiss-cpu==1.8.0.post1
 dashscope==1.20.4
-openai==1.40.8pip install -r requirements.txt -q
+openai==1.40.8
 llama-index-vector-stores-faiss==0.1.2
 llama-index-embeddings-dashscope==0.1.4
 llama-index-readers-file==0.1.33
