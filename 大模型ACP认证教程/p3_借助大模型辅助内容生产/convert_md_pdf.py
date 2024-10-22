@@ -47,7 +47,7 @@ def convert_single_md_to_pdf_and_png(md_file_path, output_base_dir="./Marp/"):
         print(f"成功将 '{pdf_file}' 转换为PNG图像并保存至 '{output_dir}'。")
     except subprocess.CalledProcessError as e:
         print(f"转换 '{md_file_path}' 时发生错误: {e}")
-        print("\n尝试另外一种生成方法，先转换为pptx再生成pdf:")
+        print("\n尝试另外一种生成方法，使用firefox生成pdf:")
         convert_single_md_to_pdf_and_png_ffx(md_file_path, output_base_dir)        
 
 # 如果你本机没有chrome 请参考 install_firefox.sh 安装firefox，请注意你应该安装一个超过200MB的文件。
@@ -91,7 +91,8 @@ def convert_single_md_to_pdf_and_png_ffx(md_file_path, output_base_dir="./Marp/"
         print(f"成功将 '{pdf_file}' 转换为PNG图像并保存至 '{output_dir}'。")
     except subprocess.CalledProcessError as e:
         print(f"转换 '{md_file_path}' 时发生错误: {e}")
-        print("\n尝试另外一种生成方法，先转换为pptx再生成pdf:")
+        
+        # print("\n尝试另外一种生成方法，先转换为pptx再生成pdf:")
         # convert_single_md_to_pptx_pdf_and_png(md_file_path, output_base_dir)  
 
 # 另一种转换方法备选，先转pptx再转pdf
