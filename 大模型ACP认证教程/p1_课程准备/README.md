@@ -127,7 +127,20 @@ python -m ipykernel install --user --name learnacp --display-name "py39(learnacp
 </tbody>
 </table>
 
-### 步骤四：配置环境变量并安装依赖
+
+### 步骤四：安装依赖
+
+在 1_0_计算环境准备.ipynb的对应位置运行以下命令，安装本课程所需的依赖环境。
+
+> 由于依赖项较多，你可能需要等待3-5分钟。
+
+```bash
+! pip install -r /mnt/workspace/aliyun_acp_learning/requirements.txt
+```
+
+
+
+### 步骤五：配置环境变量并安装依赖
 
 你需要前往[百炼API Key管理界面](https://bailian.console.aliyun.com/?apiKey=1)获取API Key，这样才能够使用大模型的API服务。
 
@@ -146,16 +159,6 @@ sys.path.append("../")
 from config.load_key import load_key
 load_key()
 print(os.environ["DASHSCOPE_API_KEY"])
-```
-
-### 步骤五：安装依赖
-
-在 1_0_计算环境准备.ipynb的对应位置运行以下命令，安装本课程所需的依赖环境。
-
-> 由于依赖项较多，你可能需要等待3-5分钟。
-
-```bash
-! pip install -r /mnt/workspace/aliyun_acp_learning/requirements.txt
 ```
 
 
