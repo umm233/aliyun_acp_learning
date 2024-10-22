@@ -1,8 +1,9 @@
+
 ## 🚄 前言 
 
 阿里云大模型ACP课程提供了丰富的Python代码教程。为了能够动手实践这些教程，你需要准备好计算环境，然而计算环境的准备并不轻松。
 
-阿里云的PAI平台为用户提供了免费的算力支持，你无需进行繁琐的环境准备流程，仅需打开网页，便可在线编写与运行程序。我们建议你通过PAI的DSW平台进行课程的学习。
+阿里云的PAI平台是为算法开发者量身打造的一站式AI开发平台，且为用户提供了免费的算力支持，你无需进行繁琐的环境准备流程，仅需打开网页，便可在线编写与运行程序。我们建议你通过PAI的[DSW平台](https://help.aliyun.com/zh/pai/user-guide/dsw-overview?spm=5176.pai-console-inland.console-base_help.dexternal.484b642duuyzD1)进行课程的学习。
 
 
 ### 步骤一：前往PAI控制台
@@ -24,19 +25,17 @@
 
 *   **实例名称**：此处以**aliyun\_acp\_learning**为例。
     
-*   **资源规格**：推荐选择**免费试用页签**中的**ecs.g6.xlarge**，无需选择GPU规格，这个规格足以运行本课程的项目；
+
+*   **资源规格**：推荐选择**免费试用页签**中的**ecs.g6.xlarge**，无需选择GPU规格，这个规格足以运行本课程的大多数项目。
+    （学习 2.4 节（[课时7：通过微调，提升模型的准确度与效率](https://edu.aliyun.com/course/3130200/lesson/343191255)）与 2.8 节（[课时11：部署模型到生产环境中](https://edu.aliyun.com/course/3130200/lesson/343260661)）两个课程时，需要使用GPU规格，但阿里云提供的免费额度可以支持你运行这两节课程的内容。）
+    
+
+> 请注意，免费试用的资源包需要领取，用于抵扣DSW实例的费用。领取链接在资源规格页中的**免费试用**页签可以看到。
 
 *   **镜像**：推荐选择**modelscope:1.18.0-pytorch2.3.0-cpu-py310-ubuntu22.04**（需要将芯片类型切换为CPU）。
+    
 
 其它保持默认，单击**确定**，完成实例的创建，实例创建通常不会超过5分钟。
-    
-> **请注意：**  
-> 1. 免费试用的资源包需要领取，用于抵扣DSW实例的费用。领取链接在资源规格页中的**免费试用**页签可以看到。
-> 2. 当学习[课时7：通过微调，提升模型的准确度与效率](https://edu.aliyun.com/course/3130200/lesson/343191255)或[课时11：部署模型到生产环境中](https://edu.aliyun.com/course/3130200/lesson/343260661)时，你需要申请一个 GPU 实例来完成课程。其他章节都可以仅使用 CPU 资源来完成。
-> 
->    （使用 GPU 的主要目的是加速模型推理。在部署模型时，我们需要用到 vllm 加速库，这个库需要有 GPU 实例支持。）
-
-
 
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01U9Ojw01PuFWajHfhq_!!6000000001900-0-tps-1902-1192.jpg" alt="我的notebook" width="600px">
 
@@ -44,11 +43,15 @@
 
 ### 步骤三：获取大模型ACP课程的代码仓库
 
-我们的代码仓库存储在了github与atomgit上。你可以通过在Terminal中输入git clone命令来获取我们的代码仓库。
+我们的代码仓库存储在了github与atomgit上。你可以通过在Terminal中输入git clone命令来获取我们的代码仓库。在DSW中，你可以通过两种方式打开Terminal：
 
-在Launcher中，点击下图的位置，即可打开一个Terminal窗口。  
+1. 在Launcher中，点击下图的位置，即可打开一个Terminal窗口。  
 
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01DsVZwx1C7cSrXVeYQ_!!6000000000034-0-tps-1082-984.jpg" alt="打开Terminal" width="300px"><br>
+
+2. 在DSW顶部点击下图的位置，即可打开一个Terminal窗口。  
+
+<img src="https://img.alicdn.com/imgextra/i1/O1CN017mqjfk1v1Lkvazikm_!!6000000006112-0-tps-1648-628.jpg" alt="打开Terminal" width="300px"><br>
 
 在Terminal中输入以下命令：
 
@@ -61,7 +64,7 @@ git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
 ```
 
 
-运行完成后，你就可以在文件树中看到aliyun\_acp\_learning文件夹了。
+运行完成后，在顶部切换到Notebook，你就可以在文件树中看到aliyun\_acp\_learning文件夹了。
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01WLnveT1oCcBZUt7tP_!!6000000005189-0-tps-870-480.jpg" alt="打开Terminal" width="300px"><br>
 <style>
@@ -163,15 +166,17 @@ pip install -r requirements.txt -q
 ```
 
 
-### 步骤五：配置环境变量并安装依赖
+### 步骤五：配置环境变量
 
-你需要前往[百炼API Key管理界面](https://bailian.console.aliyun.com/?apiKey=1)获取API Key，这样才能够使用大模型的API服务。
+你需要前往[百炼API Key管理界面](https://bailian.console.aliyun.com/?apiKey=1)获取API Key，这样才能够使用百炼提供的大模型API服务。
+
+> 如果你之前没有调用过百炼提供的通义千问API，可以参考[首次调用通义千问API文档](https://help.aliyun.com/zh/model-studio/getting-started/first-api-call-to-qwen)。
 
 将API Key配置为环境变量可以保护你的账户安全，这样即使你的代码仓库公开，API Key也不会泄漏。
 
 为了方便你进行环境变量的配置，我们封装好了一个load\_key函数，函数会自动辅助你进行环境变量的配置。
 
-请你在DSW的文件树中打开代码仓库的：**./aliyun_acp_learning/大模型ACP认证教程文件夹**/**p1\_课程准备**/**1\_0\_计算环境准备.ipynb**，运行下边的代码块，将会提示你输入API Key，并自动将API Key配置到环境变量，你可以通过print方法查看配置是否生效。
+请你在DSW的文件树中打开代码仓库的：**./aliyun_acp_learning/大模型ACP认证教程**/**p1\_课程准备**/**1\_0\_计算环境准备.ipynb**，运行下边的代码块，将会提示你输入API Key，并自动将API Key配置到环境变量，你可以通过print方法查看配置是否生效。
 > 如果之前已经配置过API Key，该函数将自动从JSON文件中获取API Key并配置到环境变量。
 
 
@@ -188,6 +193,6 @@ print(os.environ["DASHSCOPE_API_KEY"])
 ## 总结
 你已经成功获取到了我们的代码仓库，并安装好了计算环境。
 
-接下来你可以在文件树中点击 ```./aliyun_acp_learning/大模型ACP认证教程文件夹/p2_构造大模型问答系统``` 文件夹，就能看到下一章的教程内容了。祝你在之后的课程学习之旅一切顺利！
+接下来你可以在文件树中点击 ```./aliyun_acp_learning/大模型ACP认证教程/p2_构造大模型问答系统``` 文件夹，就能看到下一章的教程内容了。祝你在之后的课程学习之旅一切顺利！
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01OMsFi61C9S3FlXOZL_!!6000000000038-0-tps-964-1270.jpg" alt="第二章内容" width="300px">
