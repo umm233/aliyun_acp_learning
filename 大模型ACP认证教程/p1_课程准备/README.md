@@ -9,7 +9,7 @@
 
 1.  首先你需要前往[PAI控制台](https://pai.console.aliyun.com/?regionId=cn-hangzhou#/workspace/overview)。
     
-2.  如果你没有开通PAI平台服务，根据指引开通PAI并创建默认工作空间，点击**确认开通并创建默认工作空间**。等待开通完成后，点击**进入默认工作空间**。
+2.  如果你没有开通PAI平台服务，根据指引开通PAI并创建默认工作空间，点击**确认开通并创建默认工作空间**。等待开通完成后，点击**前往默认工作空间**。
     
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01SxUAgU1GEj4jiwFYW_!!6000000000591-0-tps-2430-1736.jpg" alt="我的notebook" width="500px">
 
@@ -24,16 +24,19 @@
 
 *   **实例名称**：此处以**aliyun\_acp\_learning**为例。
     
-
 *   **资源规格**：推荐选择**免费试用页签**中的**ecs.g6.xlarge**，无需选择GPU规格，这个规格足以运行本课程的项目；
-    
-
-> 请注意，免费试用的资源包需要领取，用于抵扣DSW实例的费用。领取链接在资源规格页中的**免费试用**页签可以看到。
 
 *   **镜像**：推荐选择**modelscope:1.18.0-pytorch2.3.0-cpu-py310-ubuntu22.04**（需要将芯片类型切换为CPU）。
-    
 
 其它保持默认，单击**确定**，完成实例的创建，实例创建通常不会超过5分钟。
+    
+> **请注意：**  
+> 1. 免费试用的资源包需要领取，用于抵扣DSW实例的费用。领取链接在资源规格页中的**免费试用**页签可以看到。
+> 2. 当学习[课时7：通过微调，提升模型的准确度与效率](https://edu.aliyun.com/course/3130200/lesson/343191255)或[课时11：部署模型到生产环境中](https://edu.aliyun.com/course/3130200/lesson/343260661)时，你需要申请一个 GPU 实例来完成课程。其他章节都可以仅使用 CPU 资源来完成。
+> 
+>    （使用 GPU 的主要目的是加速模型推理。在部署模型时，我们需要用到 vllm 加速库，这个库需要有 GPU 实例支持。）
+
+
 
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01U9Ojw01PuFWajHfhq_!!6000000001900-0-tps-1902-1192.jpg" alt="我的notebook" width="600px">
 
@@ -61,15 +64,6 @@ git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
 运行完成后，你就可以在文件树中看到aliyun\_acp\_learning文件夹了。
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01WLnveT1oCcBZUt7tP_!!6000000005189-0-tps-870-480.jpg" alt="打开Terminal" width="300px"><br>
-
-
-#### 拓展阅读：创建Conda环境（可选）
-
-我们提供一组创建环境变量的指令。
-
-- 如果你在自己的个人电脑上安装代码，你可以考虑创建项目专属的环境变量
-- 如果你使用临时的云服务，一关机就会丢掉已经安装的依赖项，你也可以考虑忽略这一步。
-
 <style>
     table {
       width: 80%;
@@ -97,6 +91,32 @@ git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git
       background-color: #e0f2ff; /* Light blue */
     }
 </style>
+
+#### 拓展阅读：创建Conda环境（可选）
+
+我们提供一组创建环境变量的指令。
+
+- 如果你在自己的个人电脑上安装代码，你可以考虑创建项目专属的环境变量
+- 如果你使用临时的云服务，一关机就会丢掉已经安装的依赖项，你也可以考虑忽略这一步。
+
+执行这段指令需要你安装 miniconda 环境，请参考[官网内容](https://docs.anaconda.com/miniconda/)安装。其中， linux 可以用以下代码安装 miniconda
+<table width="80%">
+<tbody>
+<tr>
+<td>
+
+```shell
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm ~/miniconda3/miniconda.sh
+```
+</td>
+</tr>
+</tbody>
+</table>
+
+用以下代码创建一个新的python环境。你可以在 notebook 的右上角切换不同的python执行环境。
 <table width="80%">
 <tbody>
 <tr>
@@ -127,17 +147,20 @@ python -m ipykernel install --user --name learnacp --display-name "py39(learnacp
 </tbody>
 </table>
 
-
 ### 步骤四：安装依赖
+从命令行进入文件夹 ```./aliyun_acp_learning/``` 运行以下命令 ，安装本课程所需的依赖环境。
+```shell 
+pip install -r requirements.txt -q
+```
 
-在 1_0_计算环境准备.ipynb的对应位置运行以下命令，安装本课程所需的依赖环境。
+
+或者找到文件 ```./aliyun_acp_learning/大模型ACP认证教程/p1_课程准备/1_0_计算环境准备.ipynb``` 中的对应位置，运行以下命令
 
 > 由于依赖项较多，你可能需要等待3-5分钟。
 
 ```bash
 ! pip install -r ../../requirements.txt
 ```
-
 
 
 ### 步骤五：配置环境变量并安装依赖
@@ -148,9 +171,9 @@ python -m ipykernel install --user --name learnacp --display-name "py39(learnacp
 
 为了方便你进行环境变量的配置，我们封装好了一个load\_key函数，函数会自动辅助你进行环境变量的配置。
 
-请你在DSW的文件树中打开代码仓库的：**大模型ACP认证教程**/**p1\_课程准备**/**1\_0\_计算环境准备.ipynb**，运行下边的代码块，将会提示你输入API Key，并自动将API Key配置到环境变量，你可以通过print方法查看配置是否生效。
-
+请你在DSW的文件树中打开代码仓库的：**./aliyun_acp_learning/大模型ACP认证教程文件夹**/**p1\_课程准备**/**1\_0\_计算环境准备.ipynb**，运行下边的代码块，将会提示你输入API Key，并自动将API Key配置到环境变量，你可以通过print方法查看配置是否生效。
 > 如果之前已经配置过API Key，该函数将自动从JSON文件中获取API Key并配置到环境变量。
+
 
 ```python
 import sys
@@ -165,6 +188,6 @@ print(os.environ["DASHSCOPE_API_KEY"])
 ## 总结
 你已经成功获取到了我们的代码仓库，并安装好了计算环境。
 
-接下来你可以在文件树中点击 aliyun_acp_learning-大模型ACP认证教程文件夹-p2_构造大模型问答系统 文件夹，就能看到下一章的教程内容了。祝你在之后的课程学习之旅一切顺利！
+接下来你可以在文件树中点击 ```./aliyun_acp_learning/大模型ACP认证教程文件夹/p2_构造大模型问答系统``` 文件夹，就能看到下一章的教程内容了。祝你在之后的课程学习之旅一切顺利！
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01OMsFi61C9S3FlXOZL_!!6000000000038-0-tps-964-1270.jpg" alt="第二章内容" width="300px">
