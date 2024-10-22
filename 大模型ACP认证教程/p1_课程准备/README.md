@@ -135,7 +135,7 @@ python -m ipykernel install --user --name learnacp --display-name "py39(learnacp
 > 由于依赖项较多，你可能需要等待3-5分钟。
 
 ```bash
-! pip install -r /mnt/workspace/aliyun_acp_learning/requirements.txt
+! pip install -r ../../requirements.txt
 ```
 
 
