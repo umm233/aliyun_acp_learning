@@ -30,3 +30,9 @@ alibabacloud_bailian20231229==1.8.2
 pandas==2.0.3
 alibabacloud_green20220302==2.2.11
 oss2==2.19.0
+vllm==0.6.0
+accelerate==1.0.1
+rouge-score==0.1.2
+nltk==3.9.1
+ms-swift[llm]==2.4.2.post2
+evalscope==0.5.5rc1
