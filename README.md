@@ -89,35 +89,35 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">通过LlamaIndex开发新人答疑机器人</td>
+    <td style="padding:10px; border: 1px solid #ddd;">开始构建新人答疑机器人</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.2</td>
-    <td style="padding:10px; border: 1px solid #ddd;">优化提示词工程</td>
+    <td style="padding:10px; border: 1px solid #ddd;">优化提示词改善答疑机器人回答质量</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.3</td>
-    <td style="padding:10px; border: 1px solid #ddd;">优化RAG索引与召回策略</td>
+    <td style="padding:10px; border: 1px solid #ddd;">自动化评测答疑机器人的表现</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.4</td>
-    <td style="padding:10px; border: 1px solid #ddd;">微调意图分类模型</td>
+    <td style="padding:10px; border: 1px solid #ddd;">通过优化RAG过程提升知识库检索准确度</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.5</td>
-    <td style="padding:10px; border: 1px solid #ddd;">使用智能体和插件</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用插件和智能体增强答疑机器人的能力</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.6</td>
-    <td style="padding:10px; border: 1px solid #ddd;">应用工程化评测</td>
+    <td style="padding:10px; border: 1px solid #ddd;">大模型RAG内容安全合规检查</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.7</td>
-    <td style="padding:10px; border: 1px solid #ddd;">应用安全与稳定性</td>
+    <td style="padding:10px; border: 1px solid #ddd;">通过微调提升模型的准确度与效率</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.8</td>
-    <td style="padding:10px; border: 1px solid #ddd;">在生产环境中部署与发布</td>
+    <td style="padding:10px; border: 1px solid #ddd;">部署模型到生产环境中</td>
   </tr>
     <tr>
     <td rowspan="6" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">3</td>
@@ -127,23 +127,23 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">3.1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建课程内容生成工作流</td>
+    <td style="padding:10px; border: 1px solid #ddd;">生成课程内容</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">3.2</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建课程内容翻译工作流</td>
+    <td style="padding:10px; border: 1px solid #ddd;">翻译课程内容</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">3.3</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建课程内容转PPT工作流</td>
+    <td style="padding:10px; border: 1px solid #ddd;">将课程内容转为PPT</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">3.4</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建课程内容转音频工作流</td>
+    <td style="padding:10px; border: 1px solid #ddd;">将课程内容转为音频</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">3.5</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建课程内容转视频工作流</td>
+    <td style="padding:10px; border: 1px solid #ddd;">将课程内容转为视频</td>
   </tr>
   </tbody>
 </table>
