@@ -12,8 +12,8 @@ uvicorn==0.30.6
 fastapi==0.114.1
 llama-index-postprocessor-dashscope-rerank-custom==0.1.0
 simplejson==3.19.3
-llama-index-llms-dashscope
-llama-index-readers-dashscope
+llama-index-llms-dashscope==0.1.2
+llama-index-readers-dashscope==0.1.2
 matplotlib==3.9.2
 ragas==0.1.9
 langchain_community==0.2.17
