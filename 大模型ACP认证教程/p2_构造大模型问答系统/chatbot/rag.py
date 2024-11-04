@@ -8,6 +8,16 @@ logging.basicConfig(level=logging.ERROR)
 
 def indexing(document_path="./docs", persist_path="knowledge_base/test"):
     """
+    建立索引并持久化存储
+    参数
+      path(str): 文档路径
+    """
+    index = create_index(document_path)
+    # 持久化索引，将索引保存为本地文件
+    index.storage_context.persist(persist_path)
+
+def create_index(document_path="./docs"):
+    """
     建立索引
     参数
       path(str): 文档路径
@@ -21,9 +31,9 @@ def indexing(document_path="./docs", persist_path="knowledge_base/test"):
         embed_model=DashScopeEmbedding(
             # 你也可以使用阿里云提供的其它embedding模型：https://help.aliyun.com/zh/model-studio/getting-started/models#3383780daf8hw
             model_name=DashScopeTextEmbeddingModels.TEXT_EMBEDDING_V2
-        ))
-    # 持久化索引，将索引保存为本地文件
-    index.storage_context.persist(persist_path)
+        )
+    )
+    return index
 
 def load_index(persist_path="knowledge_base/test"):
     """
@@ -70,14 +80,17 @@ from llama_index.core import PromptTemplate
 def update_prompt_template(
         query_engine,
         qa_prompt_tmpl_str = (
-        "你要简短地回答问题。以下是参考信息"
+        "你叫公司小蜜，是公司的答疑机器人。你需要仔细阅读参考信息，然后回答大家提出的问题。"
+        "注意事项：\n"
+        "1. 根据上下文信息而非先验知识来回答问题。\n"
+        "2. 如果是工具咨询类问题，请务必给出下载地址链接。\n"
+        "3. 如果员工部门查询问题，请务必注意有同名员工的情况，可能有2个、3个甚至更多同名的人\n"
+        "以下是参考信息。"
         "---------------------\n"
         "{context_str}\n"
         "---------------------\n"
-        "比如学员问xx功能的工具是什么，你只需要回复：工具是："
-        "不要说其它的话。"
-        "学员的提问是: {query_str}\n。"
-        "你的回答是: "
+        "问题：{query_str}\n。"
+        "回答："
     )):
     """
     修改prompt模板
@@ -88,5 +101,5 @@ def update_prompt_template(
     query_engine.update_prompts(
         {"response_synthesizer:text_qa_template": qa_prompt_tmpl}
     )
-    print("提示词模板修改成功")
+    # print("提示词模板修改成功")
     return query_engine
