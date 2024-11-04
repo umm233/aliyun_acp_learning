@@ -73,9 +73,18 @@ git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
 ## 总结
 你已经准备好了环境并获取到了课程代码，。
 
-接下来你可以在文件树中点击 ```./aliyun_acp_learning/大模型ACP认证教程/p2_构造大模型问答系统``` 文件夹，就能看到下一章的教程内容了。祝你在之后的课程学习之旅一切顺利！
+接下来你可以在文件树中点击 ```./aliyun_acp_learning/大模型ACP认证教程/p2_构造大模型问答系统``` 文件夹，就能看到下一章的教程内容了。
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01OMsFi61C9S3FlXOZL_!!6000000000038-0-tps-964-1270.jpg" alt="第二章内容" width="300px">
+
+为了方便阅读，你可以通过左侧菜单，打开当前文档的导读界面：
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01yqsscw1kJFStmVJVK_!!6000000004662-2-tps-1398-960.png" alt="导读" width="300px">
+
+如果你不习惯深色主题，也可以在顶部的 Settings 菜单中调整：
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01E7kH2F1fBqzPMkkoZ_!!6000000003969-2-tps-961-279.png" alt="设置" width="600px">
+
+祝你在之后的课程学习之旅一切顺利！
 
 ### 拓展阅读
 如果你希望在本地或其他环境中运行课程代码，建议你使用 python 3.10，以确保课程代码可以正常运行。
