@@ -18,7 +18,7 @@
 - 掌握以下知识与技能：
     - 大模型提示词技巧
     - 检索增强和微调的原理和流程
-    - LangChain、Llama-Index和Dify等大模型开发组件的使用方法
+    - Llama-Index等大模型开发框架的使用方法
     - 工程化评测的概念与方法
     - 大模型的规范和安全性
 - 有能力完成以下任务：
@@ -42,7 +42,7 @@
       width: 80%;
       margin: 20px; /* Center the table */
       border-collapse: collapse; /* Collapse borders for a cleaner look */
-      font-family: sans-serif; 
+      font-family: sans-serif;
     }
 
     th, td {
@@ -101,11 +101,11 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.4</td>
-    <td style="padding:10px; border: 1px solid #ddd;">通过优化RAG过程提升知识库检索准确度</td>
+    <td style="padding:10px; border: 1px solid #ddd;">优化RAG应用提升问答准确度</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.5</td>
-    <td style="padding:10px; border: 1px solid #ddd;">用插件和智能体增强答疑机器人的能力</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用插件扩展答疑机器人的能力边界</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.6</td>
@@ -188,7 +188,7 @@
     <td style="padding:10px; border: 1px solid #ddd;">AI 辅助多模态内容生产</td>
     <td style="padding:10px; border: 1px solid #ddd;">12%</td>
   </tr>
-  
+
   </tbody>
 </table>
 
