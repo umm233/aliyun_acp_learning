@@ -8,9 +8,9 @@ def load_key():
         with open(file_name, 'r') as file:
             Key = json.load(file)
         if "DASHSCOPE_API_KEY" in Key:
-            os.environ['DASHSCOPE_API_KEY'] = Key["DASHSCOPE_API_KEY"]
+            os.environ['DASHSCOPE_API_KEY'] = Key["DASHSCOPE_API_KEY"].strip()
     else:
-        DASHSCOPE_API_KEY = getpass.getpass("未找到存放Key的文件，请输入你的api_key:")
+        DASHSCOPE_API_KEY = getpass.getpass("未找到存放Key的文件，请输入你的api_key:").strip()
         Key = {
             "DASHSCOPE_API_KEY": DASHSCOPE_API_KEY
         }
