@@ -41,6 +41,10 @@
 
     当实例状态为运行中时，单击**操作**列中的**打开**，就可以进入到 DSW 提供的在线 Notebook 界面。
 
+    > DSW是按照实例运行时间进行免费额度的抵扣或计费，如果你在学完某章节后暂时不使用该实例，建议及时停止实例。
+
+    > 如果你没有免费额度，也可以尝试使用[ModelScope的Notebook功能](https://modelscope.cn/my/mynotebook)完成本教程学习。
+
 #### 检查环境变量
 
 - 请检查你当前的 **python** 版本是 3.10 版本，你可以在命令行输入```python --version```来确认。
@@ -125,3 +129,22 @@ conda activate learnacp
 ```shell 
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ 
 ```
+
+#### 3. DSW 的常见问题
+
+Q1:为什么 DSW 里的 WebIDE 和 Notebook 交互输入框位置不一样？
+
+A1: 在 2.1 教程中，你会输入 API Key，如果你使用 Notebook，那么输入框会非常容易看到（就在运行代码块的下方）；
+
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01bNeIzG1PJ9SjOilw7_!!6000000001819-0-tps-1642-286.jpg" width="500px" alt="切换kernel">
+
+如果你使用 WebIDE，那么输入框会出现在代码文件的正上方。
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01horPgp1foKH3nnLW8_!!6000000004053-0-tps-1660-604.jpg" width="500px" alt="切换kernel">
+
+Q2: 在 Notebook 中能够直接看到图片，可是为什么双击图片所在的 Markdown 块后，图片就显示不出来了？
+
+A2: 这是因为双击图片所在的 Markdown 块后就进入了编辑模式，你只要点击 Markdown 块之外的代码块进入查看模式，图片就会显示出来了。
+
+<img src="https://img.alicdn.com/imgextra/i4/O1CN012mnKlz1Q5hRev3onD_!!6000000001925-1-tps-1240-372.gif" width="500px" alt="切换kernel">
+
