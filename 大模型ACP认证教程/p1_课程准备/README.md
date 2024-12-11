@@ -86,6 +86,7 @@ git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01yqsscw1kJFStmVJVK_!!6000000004662-2-tps-1398-960.png" alt="导读" width="300px">
 
 如果你不习惯深色主题，也可以在顶部的 Settings 菜单中调整：
+
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01E7kH2F1fBqzPMkkoZ_!!6000000003969-2-tps-961-279.png" alt="设置" width="600px">
 
 祝你在之后的课程学习之旅一切顺利！
