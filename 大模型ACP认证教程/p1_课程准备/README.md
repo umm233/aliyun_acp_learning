@@ -1,4 +1,3 @@
-
 ## 🚄 前言 
 
 动手实践是学习大模型的过程中必不可少的环节。为了帮助你更好的掌握相关知识，我们在每个章节都设计了丰富的示例代码。
@@ -74,6 +73,7 @@ git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01WLnveT1oCcBZUt7tP_!!6000000005189-0-tps-870-480.jpg" alt="打开Terminal" width="300px"><br>
 
+
 ## 总结
 你已经准备好了环境并获取到了课程代码，。
 
@@ -100,18 +100,18 @@ git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
 
 执行以下指令可以让你创建一个 3.10 版本的 python 环境。
 
-    ```shell
-    conda create -n learnacp python=3.10.15 -y -q
-    conda activate learnacp
-    ```
+```shell
+conda create -n learnacp python=3.10.15 -y -q
+conda activate learnacp
+```
 
 执行以下指令，可以将 learnacp 注册到 notebook 的环境变量列表中，这样你在 notebook 中指定 learnacp 环境后开始编码。
 
 
-    ```shell
-    pip install ipykernel
-    python -m ipykernel install --user --name learnacp --display-name "py310(learnacp)"
-    ```
+```shell
+pip install ipykernel
+python -m ipykernel install --user --name learnacp --display-name "py310(learnacp)"
+```
 
 新的环境安装完成后，你可以在notebook的右上角点击切换。比如你用上述代码创建的 ```py310(learnacp)``` 环境。
  
@@ -149,3 +149,18 @@ A2: 这是因为双击图片所在的 Markdown 块后就进入了编辑模式，
 
 <img src="https://img.alicdn.com/imgextra/i4/O1CN012mnKlz1Q5hRev3onD_!!6000000001925-1-tps-1240-372.gif" width="500px" alt="切换kernel">
 
+Q3: 我注意到 Git 仓库有更新，应该怎么拉取到最新代码？
+
+A3: 你可以在 Terminal 中依次运行以下两个命令：
+```shell
+git checkout .
+git pull
+```
+
+请注意：该动作会覆盖本地代码，如果你需要保留本地的运行结果，请备份后再运行。
+
+Q4: 我在执行 `git clone` 命令时，速度很慢，并且报了超时的错误，应该怎么办？
+
+A4: 你可以停止该实例，在切换到其它地域后，重新创建一个实例并拉取代码。
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01BSl0Ku1Hef8xRAm9Q_!!6000000000783-0-tps-958-1112.jpg" width="300px" alt="切换region">
