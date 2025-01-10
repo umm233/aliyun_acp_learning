@@ -5,6 +5,8 @@ from llama_index.llms.dashscope import DashScope
 # 这两行代码是用于消除 WARNING 警告信息，避免干扰阅读学习，生产环境中建议根据需要来设置日志级别
 import logging
 logging.basicConfig(level=logging.ERROR)
+from llama_index.llms.openai_like import OpenAILike
+import os
 
 def indexing(document_path="./docs", persist_path="knowledge_base/test"):
     """
@@ -56,10 +58,17 @@ def create_query_engine(index):
     返回
       QueryEngine: 查询引擎对象
     """
+    
     query_engine = index.as_query_engine(
+      # 设置为流式输出
       streaming=True,
-      llm=DashScope(model_name="qwen-plus-0919")
-    )
+      # 此处使用qwen-plus-0919模型，你也可以使用阿里云提供的其它qwen的文本生成模型：https://help.aliyun.com/zh/model-studio/getting-started/models#9f8890ce29g5u
+      llm=OpenAILike(
+          model="qwen-plus-0919",
+          api_base="https://dashscope.aliyuncs.com/compatible-mode/v1",
+          api_key=os.getenv("DASHSCOPE_API_KEY"),
+          is_chat_model=True
+          ))
     return query_engine
 
 def ask(question, query_engine):
