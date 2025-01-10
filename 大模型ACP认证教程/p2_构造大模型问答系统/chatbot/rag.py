@@ -58,7 +58,7 @@ def create_query_engine(index):
     """
     query_engine = index.as_query_engine(
       streaming=True,
-      llm=DashScope(model_name="qwen-plus")
+      llm=DashScope(model_name="qwen-plus-0919")
     )
     return query_engine
 
