@@ -18,7 +18,7 @@
 - 掌握以下知识与技能：
     - 大模型提示词技巧
     - 检索增强和微调的原理和流程
-    - Llama-Index等大模型开发框架的使用方法
+    - LangChain、Llama-Index和Dify等大模型开发组件的使用方法
     - 工程化评测的概念与方法
     - 大模型的规范和安全性
 - 有能力完成以下任务：
@@ -36,6 +36,34 @@
 在阿里云大模型ACP认证中，课程整体将会以项目式的结构呈现。以项目式的结构设计课程可以帮助学员掌握课程所需的核心概念和技能，并且应用这些知识和技能解决实际问题。
 在阿里云大模型ACP认证课程中，你将作为一位教育内容开发公司的员工，构建一个基于大模型的答疑机器人，从而解决新员工入职频繁答疑的问题；随后在公司需要教育课程时，你会利用大模型生成多种形式的教学内容，帮助公司完成业务目标。
 通过这两个项目的练习，希望你可以思考如何将大模型的能力带入到不同的行业中，最终可以面向不同的业务场景设计并实施大模型驱动的解决方案。
+
+<style>
+    table {
+      width: 80%;
+      margin: 20px; /* Center the table */
+      border-collapse: collapse; /* Collapse borders for a cleaner look */
+      font-family: sans-serif;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd; /* Light gray border */
+    }
+
+    th {
+      background-color: #f2f2f2; /* Light gray background for header */
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) { /* Zebra striping */
+      background-color: #f9f9f9;
+    }
+
+    tr:hover { /* Highlight row on hover */
+      background-color: #e0f2ff; /* Light blue */
+    }
+</style>
 
 <table>
 <thead>
@@ -93,29 +121,9 @@
   </tr>
     <tr>
     <td rowspan="6" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">3</td>
-    <td rowspan="6" style="padding:10px; border: 1px solid #ddd;">借助大模型辅助内容生产</td>
+    <td rowspan="6" style="padding:10px; border: 1px solid #ddd;">总结与展望</td>
     <td style="padding:10px; border: 1px solid #ddd;">3.0</td>
-    <td style="padding:10px; border: 1px solid #ddd;">项目背景</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">3.1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">生成课程内容</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">3.2</td>
-    <td style="padding:10px; border: 1px solid #ddd;">翻译课程内容</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">3.3</td>
-    <td style="padding:10px; border: 1px solid #ddd;">将课程内容转为PPT</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">3.4</td>
-    <td style="padding:10px; border: 1px solid #ddd;">将课程内容转为音频</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">3.5</td>
-    <td style="padding:10px; border: 1px solid #ddd;">将课程内容转为视频</td>
+    <td style="padding:10px; border: 1px solid #ddd;">总结与展望</td>
   </tr>
   </tbody>
 </table>
@@ -230,14 +238,14 @@
     <td style="padding:10px; border: 1px solid #ddd;">掌握如何使用vLLM进行大模型的部署操作<br>了解如何利用云服务如函数计算（FC）实现AI助手的快速发布</td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI 辅助内容生产</td>
-    <td style="padding:10px; border: 1px solid #ddd;">用 AI 辅助开发教学课件PPT</td>
-    <td style="padding:10px; border: 1px solid #ddd;">了解阿里发布的通义系列多模态大模型及算法服务如Qwen-Max、Qwen-VL、通义万相、CosyVoice等作用和使用方法。
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI辅助多模态内容生产</td>
+    <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>
+    <td style="padding:10px; border: 1px solid #ddd;">动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。
     </td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">用 AI 辅助将教学课件转为视频课件</td>
-    <td style="padding:10px; border: 1px solid #ddd;">了解如何使用但不限于Flux-Merged、Marp、moviepy、ffmpeg等多媒体工具来辅助生成视频内容
+    <td style="padding:10px; border: 1px solid #ddd;">AI正在影响着千行百业</td>
+    <td style="padding:10px; border: 1px solid #ddd;">了解AI在医疗、教育、娱乐等行业的实际应用。
     </td>
   </tr>
   </tbody>
