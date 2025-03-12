@@ -22,7 +22,7 @@
 
 试想一下，你有一万张衣服商品图片，需要提取一些信息（如花纹、衣领款式），人工打标费事费力。而现在，你可以借助视觉理解大模型来自动化完成这一任务。
 
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01ex7Wxr1m8NKMoeg6u_!!6000000004909-1-tps-700-438.gif" ref= "https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7156285371/p897795.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01ex7Wxr1m8NKMoeg6u_!!6000000004909-1-tps-700-438.gif"  width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 
 除了能够从商品图片中提取结构化信息之外，你还可以借助视觉理解模型来实现纸质表单信息提取、视频理解等。
 
@@ -35,7 +35,7 @@
 ### 1.2 AI 剧本生成与动画创作
 当你想给孩子展示 AI 的魅力，或者为你的朋友圈里增添一些 AI 惊喜时，你都可以考虑使用阿里云推出的[AI 剧本生成与动画创作](https://www.aliyun.com/solution/tech-solution/animation-creation)解决方案。通过“在线部署”，随时体验一键创作视频的乐趣。
 
-<img src="https://img.alicdn.com/imgextra/i2/O1CN01rGpxfy274oAqBEXxl_!!6000000007744-1-tps-900-563.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01ZG3tNO1XxTHDoWNcP_!!6000000002990-1-tps-800-500.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 
 你可以和家人或朋友一起设计动画的角色形象、剧情梗概，剩下的事情完全交给AI自主完成。
 
