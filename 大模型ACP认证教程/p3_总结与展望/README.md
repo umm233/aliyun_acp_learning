@@ -66,7 +66,7 @@
 ### 1.4 与AI实时音视频通话
 具备视频交互能力的 AI 应用，拥有了帮助人们解决生活中各类问题的巨大潜力。无论是健身、做菜等日常需求，还是助残、导盲等更具社会意义的场景，视频通话能力已经成为 AI 应用跨界创新的利器。通过阿里云推出的[AI 实时音视频互动](https://www.aliyun.com/solution/tech-solution/real-time-interaction)解决方案，你可以快速搭建与大模型进行视频聊天的应用。同时，依托视频云 ARTC 网络，整个交互过程稳定高效，延迟极低，完全满足商业化场景的需求。
 
-<img src="https://img.alicdn.com/imgextra/i4/O1CN01sgiXMx27WkKjmUvtd_!!6000000007805-1-tps-750-469.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01gMa86k1sRVZDs7jYO_!!6000000005763-1-tps-700-438.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 
 你也可以选择搭建音频对话助手，看哪种更适合你的业务需求。
 
