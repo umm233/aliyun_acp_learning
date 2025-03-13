@@ -22,20 +22,32 @@
 
 试想一下，你有一万张衣服商品图片，需要提取一些信息（如花纹、衣领款式），人工打标费事费力。而现在，你可以借助视觉理解大模型来自动化完成这一任务。
 
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01ex7Wxr1m8NKMoeg6u_!!6000000004909-1-tps-700-438.gif"  width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+### 1.1 多模态数据信息提取
+
+试想一下，你有一万张衣服商品图片，需要提取一些信息（如花纹、衣领款式），人工打标费事费力。而现在，你可以借助视觉理解大模型来自动化完成这一任务。
+
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8057905371/p893653.gif" target="_blank">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01ex7Wxr1m8NKMoeg6u_!!6000000004909-1-tps-700-438.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
 
 除了能够从商品图片中提取结构化信息之外，你还可以借助视觉理解模型来实现纸质表单信息提取、视频理解等。
 
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8057905371/p893650.gif" target="_blank">
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01AvlD3y1WIsYfYX8NG_!!6000000002766-1-tps-1200-750.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
 <br/>
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8057905371/p893654.gif" target="_blank">
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01UcF39n1Ha5COllsvc_!!6000000000773-1-tps-800-500.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
 
 你可以前往阿里云技术解决方案频道[立即体验](https://www.aliyun.com/solution/tech-solution/information-extraction)这一方案，该方案将引导你自动完成一个视觉应用的搭建，并且提供了完整源码供你参考。
 
 ### 1.2 AI 剧本生成与动画创作
 当你想给孩子展示 AI 的魅力，或者为你的朋友圈里增添一些 AI 惊喜时，你都可以考虑使用阿里云推出的[AI 剧本生成与动画创作](https://www.aliyun.com/solution/tech-solution/animation-creation)解决方案。通过“在线部署”，随时体验一键创作视频的乐趣。
 
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7156285371/p897795.gif" target="_blank">
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01ZG3tNO1XxTHDoWNcP_!!6000000002990-1-tps-800-500.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
 
 你可以和家人或朋友一起设计动画的角色形象、剧情梗概，剩下的事情完全交给AI自主完成。
 
@@ -49,7 +61,10 @@
 
 你可以前往阿里云的解决方案频道[立即部署](https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#1a8f16674edv0)这一方案，构造一个网页版 AI 助手。
 
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8936289171/p816074.gif" target="_blank">
 <img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8936289171/p816074.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
+
 
 
 
@@ -66,11 +81,15 @@
 ### 1.4 与AI实时音视频通话
 具备视频交互能力的 AI 应用，拥有了帮助人们解决生活中各类问题的巨大潜力。无论是健身、做菜等日常需求，还是助残、导盲等更具社会意义的场景，视频通话能力已经成为 AI 应用跨界创新的利器。通过阿里云推出的[AI 实时音视频互动](https://www.aliyun.com/solution/tech-solution/real-time-interaction)解决方案，你可以快速搭建与大模型进行视频聊天的应用。同时，依托视频云 ARTC 网络，整个交互过程稳定高效，延迟极低，完全满足商业化场景的需求。
 
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7372426371/p900862.gif" target="_blank">
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01gMa86k1sRVZDs7jYO_!!6000000005763-1-tps-700-438.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
 
 你也可以选择搭建音频对话助手，看哪种更适合你的业务需求。
 
+<a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7372426371/p900861.gif" target="_blank">
 <img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7372426371/p900861.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
 
 
 现在就[部署一个实例](https://www.aliyun.com/solution/tech-solution/real-time-interaction)，开启你的未来之旅！
