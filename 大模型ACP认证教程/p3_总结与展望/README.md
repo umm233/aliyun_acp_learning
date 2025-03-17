@@ -22,10 +22,6 @@
 
 试想一下，你有一万张衣服商品图片，需要提取一些信息（如花纹、衣领款式），人工打标费事费力。而现在，你可以借助视觉理解大模型来自动化完成这一任务。
 
-### 1.1 多模态数据信息提取
-
-试想一下，你有一万张衣服商品图片，需要提取一些信息（如花纹、衣领款式），人工打标费事费力。而现在，你可以借助视觉理解大模型来自动化完成这一任务。
-
 <a href="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8057905371/p893653.gif" target="_blank">
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01ex7Wxr1m8NKMoeg6u_!!6000000004909-1-tps-700-438.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 </a>
