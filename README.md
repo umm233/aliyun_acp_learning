@@ -146,27 +146,27 @@
  <tbody>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型应用开发</td>
-    <td style="padding:10px; border: 1px solid #ddd;">16%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型提示词工程</td>
-    <td style="padding:10px; border: 1px solid #ddd;">24%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">14%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型检索增强</td>
-    <td style="padding:10px; border: 1px solid #ddd;">24%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">19%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型微调</td>
+    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">多Agent及多模态应用</td>
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">大模型应用安全</td>
-    <td style="padding:10px; border: 1px solid #ddd;">8%</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">AI 辅助内容生产</td>
-    <td style="padding:10px; border: 1px solid #ddd;">12%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">生产环境应用实践</td>
+    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
   </tr>
 
   </tbody>
@@ -219,12 +219,17 @@
     <td style="padding:10px; border: 1px solid #ddd;">微调数据集构建、微调参数介绍、微调模型评测</td>
   </tr>
   <tr>
-    <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型智能体与插件</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">多Agent及多模态应用</td>
     <td style="padding:10px; border: 1px solid #ddd;">基于百炼Assistant API构建智能体</td>
     <td style="padding:10px; border: 1px solid #ddd;">理解智能体运行机制<br>掌握用生成多模态内容、构建个性化语音助手等能力</td>
+    </tr>
+    <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>
+    <td style="padding:10px; border: 1px solid #ddd;">动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。<br>了解AI在医疗、教育、娱乐等行业的实际应用。
+    </td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型应用安全</td>
+    <td rowspan="3" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">生产环境应用实践</td>
     <td style="padding:10px; border: 1px solid #ddd;">内容安全合规检查手段</td>
     <td style="padding:10px; border: 1px solid #ddd;">了解大模型开发中存在的内容安全问题<br>了解内容安全合规检测类型及常用方案</td>
   </tr>
@@ -233,20 +238,8 @@
     <td style="padding:10px; border: 1px solid #ddd;">了解在云服务环境下应用系统安全的基本要素和解决方案</td>
   </tr>
   <tr>
-    <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">部署大模型应用</td>
     <td style="padding:10px; border: 1px solid #ddd;">在云上部署微调模型的基本方案<br>在云服务如（ECS、FC、PAI）中部署模型<br>在百炼上部署模型</td>
     <td style="padding:10px; border: 1px solid #ddd;">掌握如何使用vLLM进行大模型的部署操作<br>了解如何利用云服务如函数计算（FC）实现AI助手的快速发布</td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI辅助内容生产</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>
-    <td style="padding:10px; border: 1px solid #ddd;">动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">AI正在影响着千行百业</td>
-    <td style="padding:10px; border: 1px solid #ddd;">了解AI在医疗、教育、娱乐等行业的实际应用。
-    </td>
   </tr>
   </tbody>
 </table>
