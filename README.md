@@ -184,62 +184,58 @@
  <tbody>
   <tr>
     <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型应用开发</td>
-    <td style="padding:10px; border: 1px solid #ddd;">通过OpenAI API调用大模型 <br> 了解大模型的工作原理</td>
-    <td style="padding:10px; border: 1px solid #ddd;">基本API参数如model、temperature、top_p等等 <br>批量生成与流式生成 <br> 理解消息与对话历史</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 通过OpenAI API调用大模型 <br>● 了解大模型的工作原理</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 基本API参数如model、temperature、top_p等等 <br>● 批量生成与流式生成 <br>● 理解消息与对话历史</td>
   </tr>
   <tr>
     <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型提示词工程</td>
     <td style="padding:10px; border: 1px solid #ddd;">构建有效的提示词</td>
-    <td style="padding:10px; border: 1px solid #ddd;">提示词框架如提示词要素、提示词分隔符、提示词模板 <br> 理解系统角色提示词的作用</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 提示词框架如提示词要素、提示词分隔符、提示词模板 <br>● 理解系统角色提示词的作用</td>
   </tr>
     <tr>
     <td style="padding:10px; border: 1px solid #ddd;">利用大模型处理各类任务</td>
-    <td style="padding:10px; border: 1px solid #ddd;">理解大模型的适用场景<br> 利用大模型开发应用（如批量对员工咨询做意图分类、用大模型做文档审阅、实现针对问题的自动文档修订）</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 理解大模型的适用场景<br>● 利用大模型开发应用（如批量对员工咨询做意图分类、用大模型做文档审阅、实现针对问题的自动文档修订）</td>
   </tr>
    <tr>
     <td rowspan="3" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型检索增强</td>
     <td style="padding:10px; border: 1px solid #ddd;">通过LlamaIndex构建RAG应用的基本使用方法</td>
-    <td style="padding:10px; border: 1px solid #ddd;">理解RAG的核心要素，如文件解析、文本切片、段落召回、段落重排序。<br>理解对RAG做召回优化如句子窗口检索、自动合并检索等等。</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 理解RAG的核心要素，如文件解析、文本切片、段落召回、段落重排序。<br>● 理解对RAG做召回优化如句子窗口检索、自动合并检索等等。</td>
   </tr>
 <tr>
     <td style="padding:10px; border: 1px solid #ddd;">持续优化检索增强能力</td>
-    <td style="padding:10px; border: 1px solid #ddd;">理解更贴近实战的RAG优化方法如优化文本解析、标题改写优化、表格内容增强、文本分割方法对比等等</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 理解更贴近实战的RAG优化方法如优化文本解析、标题改写优化、表格内容增强、文本分割方法对比等等</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">对检索增强的能力做自动化评测</td>
-    <td style="padding:10px; border: 1px solid #ddd;">了解RAGAS指标体系<br>懂得RAG系统的评测方法。</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 了解RAGAS指标体系<br>● 懂得RAG系统的评测方法。</td>
   </tr>
   <tr>
     <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型的微调</td>
     <td style="padding:10px; border: 1px solid #ddd;">微调的概念与要求</td>
-    <td style="padding:10px; border: 1px solid #ddd;">微调的作用、前提、基本步骤、常用算法</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 微调的作用、前提、基本步骤、常用算法</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">微调的实验与评测</td>
-    <td style="padding:10px; border: 1px solid #ddd;">微调数据集构建、微调参数介绍、微调模型评测</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 微调数据集构建、微调参数介绍、微调模型评测</td>
   </tr>
   <tr>
     <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">多Agent及多模态应用</td>
     <td style="padding:10px; border: 1px solid #ddd;">基于百炼Assistant API构建智能体</td>
-    <td style="padding:10px; border: 1px solid #ddd;">理解智能体运行机制<br>掌握用生成多模态内容、构建个性化语音助手等能力</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 理解智能体运行机制<br>● 掌握用生成多模态内容、构建个性化语音助手等能力</td>
     </tr>
     <tr>
     <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>
-    <td style="padding:10px; border: 1px solid #ddd;">动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。<br>了解AI在医疗、教育、娱乐等行业的实际应用。
+    <td style="padding:10px; border: 1px solid #ddd;">● 动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。<br>● 了解AI在医疗、教育、娱乐等行业的实际应用。
     </td>
   </tr>
   <tr>
-    <td rowspan="3" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">生产环境应用实践</td>
-    <td style="padding:10px; border: 1px solid #ddd;">内容安全合规检查手段</td>
-    <td style="padding:10px; border: 1px solid #ddd;">了解大模型开发中存在的内容安全问题<br>了解内容安全合规检测类型及常用方案</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">生产环境应用实践</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 在云上部署微调模型的基本方案<br>● 在云服务如（ECS、FC、PAI）中部署模型<br>● 在百炼上部署模型</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 掌握如何使用vLLM进行大模型的部署操作<br>● 了解如何利用云服务如函数计算（FC）实现AI助手的快速发布</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">大模型应用部署（云服务）安全</td>
-    <td style="padding:10px; border: 1px solid #ddd;">了解在云服务环境下应用系统安全的基本要素和解决方案</td>
-  </tr>
-  <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">在云上部署微调模型的基本方案<br>在云服务如（ECS、FC、PAI）中部署模型<br>在百炼上部署模型</td>
-    <td style="padding:10px; border: 1px solid #ddd;">掌握如何使用vLLM进行大模型的部署操作<br>了解如何利用云服务如函数计算（FC）实现AI助手的快速发布</td>
+    <td style="padding:10px; border: 1px solid #ddd;">大模型应用发布至生产环境的关键要素</td>
+    <td style="padding:10px; border: 1px solid #ddd;">● 了解如何平衡大模型应用的性能和运行成本<br>● 了解如何提升大模型应用的稳定性<br>● 了解如何保障大模型应用安全合规</td>
   </tr>
   </tbody>
 </table>
