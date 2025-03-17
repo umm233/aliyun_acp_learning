@@ -184,7 +184,7 @@
  <tbody>
   <tr>
     <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型应用开发</td>
-    <td style="padding:10px; border: 1px solid #ddd;">通过OpenAI API调用大模型 <br> 通过LlamaIndex向通义千问提问</td>
+    <td style="padding:10px; border: 1px solid #ddd;">通过OpenAI API调用大模型 <br> 了解大模型的工作原理</td>
     <td style="padding:10px; border: 1px solid #ddd;">基本API参数如model、temperature、top_p等等 <br>批量生成与流式生成 <br> 理解消息与对话历史</td>
   </tr>
   <tr>
@@ -193,8 +193,8 @@
     <td style="padding:10px; border: 1px solid #ddd;">提示词框架如提示词要素、提示词分隔符、提示词模板 <br> 理解系统角色提示词的作用</td>
   </tr>
     <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">利用大模型创建算法应用</td>
-    <td style="padding:10px; border: 1px solid #ddd;">理解大模型的适用场景<br> 利用大模型开发应用算法（如批量对员工咨询做意图分类、用大模型做文档审阅、实现针对问题的自动文档修订）</td>
+    <td style="padding:10px; border: 1px solid #ddd;">利用大模型处理各类任务</td>
+    <td style="padding:10px; border: 1px solid #ddd;">理解大模型的适用场景<br> 利用大模型开发应用（如批量对员工咨询做意图分类、用大模型做文档审阅、实现针对问题的自动文档修订）</td>
   </tr>
    <tr>
     <td rowspan="3" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型检索增强</td>
@@ -212,7 +212,7 @@
   <tr>
     <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">大模型的微调</td>
     <td style="padding:10px; border: 1px solid #ddd;">微调的概念与要求</td>
-    <td style="padding:10px; border: 1px solid #ddd;">型微调的作用、前提、基本步骤、常用算法</td>
+    <td style="padding:10px; border: 1px solid #ddd;">微调的作用、前提、基本步骤、常用算法</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">微调的实验与评测</td>
