@@ -165,7 +165,7 @@
     <td style="padding:10px; border: 1px solid #ddd;">8%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">AI 辅助多模态内容生产</td>
+    <td style="padding:10px; border: 1px solid #ddd;">AI 辅助内容生产</td>
     <td style="padding:10px; border: 1px solid #ddd;">12%</td>
   </tr>
 
@@ -238,7 +238,7 @@
     <td style="padding:10px; border: 1px solid #ddd;">掌握如何使用vLLM进行大模型的部署操作<br>了解如何利用云服务如函数计算（FC）实现AI助手的快速发布</td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI辅助多模态内容生产</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI辅助内容生产</td>
     <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>
     <td style="padding:10px; border: 1px solid #ddd;">动手实践阿里发布的AI技术解决方案系列，体验多模态交互技术。
     </td>
