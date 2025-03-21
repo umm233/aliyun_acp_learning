@@ -90,6 +90,27 @@
 
 现在就[部署一个实例](https://www.aliyun.com/solution/tech-solution/real-time-interaction)，开启你的未来之旅！
 
+
+### 1.5 与AI程序员结伴编程，秒变全栈开发
+你可能想在你的电商系统中快速添加一项新功能，但却苦于人手不足？通义灵码AI程序员就是你24小时随叫随到的编程伙伴！它能：
+- **一键生成全流程**
+从需求实现到单元测试，从代码修复到批量修改，复杂代码编写"一键生成”，AI全程智能协作
+- **全栈需求零压力**
+前后端开发同步推进——前端界面交互、后端服务逻辑，AI自动完成多文件联调，开发效率翻倍
+- **解放双手创价值**
+你专注架构设计与核心逻辑，重复性代码、配置维护、测试用例等琐事交给AI自主完成
+
+
+<a href="https://cloud.video.taobao.com/vod/Fio3xBNUr52SZQ0NNbg0KzlRVzeHoA0BpLBjnyyG6vA.mp4" target="_blank">
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01l2Losi1ljdwOoa054_!!6000000004855-1-tps-600-336.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+</a>
+
+详细流程请参考[通义灵码AI程序员与开发者结伴编程](https://developer.aliyun.com/article/1658034)，现在就让 AI 程序员成为你的左膀右臂，[立即下载体验](https://help.aliyun.com/zh/lingma/user-guide/download-the-installation-guide)！
+
+
+> 如果你想实现提交代码后自动触发流水线，自动执行代码检测和单元测试，从开发到代码CI/CD全流程管理，阿里云还提供了[企业级智能编码解决方案](https://www.aliyun.com/solution/tech-solution/intelligent-coding?spm=5176.29677750.J_7uZrZlgl1hzBH9MLq1qLS.d_5_action_0.5f02154aSfWf1n)，通过将通义灵码与云效相结合，进一步提高你对项目的管理能力，确保软件按时高质量交付。
+
+
 ## 🌏 2. AI正在影响着千行百业
 
 AI与大模型已经在很多领域有了成功落地，以下案例涵盖了医疗、娱乐、教育等多个领域，通过了解这些实际应用场景，你不仅可以更直观地感受到 AI 技术的强大能力，还能从中获得灵感，为自己的行业找到创新的突破口和实用的解决方案。
