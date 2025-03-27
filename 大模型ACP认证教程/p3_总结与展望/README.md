@@ -66,10 +66,35 @@
 
 你也可以尝试其他解决方案，将 AI 助手快速嵌入钉钉或微信公众号中。
 
-|在钉钉中添加一个 AI 问答机器人|让微信公众号成为 AI 助手|在企业微信中集成一个 AI 助手|
-|----|----|----|
-|<img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2120582271/p830568.gif" width="220" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;"> |<img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9763691271/p825777.gif" width="220" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">|<img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7752553271/p834112.gif" width="220" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">|
-|[立即部署一个钉钉群机器助理](https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#c3982bca67jqn)|[立即部署一个微信公众号客服](https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#9b3e0c1c88c6k)|[立即部署一个企业微信客服](https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#56befd5038eti)|
+
+
+<table style='margin-left: 0;'>
+    <tr>
+        <th style="border-collapse: collapse;border: none;padding: 0 10px 0 0;text-align: center;">在钉钉中添加一个 AI 问答机器人
+        </th>
+        <th style="border-collapse: collapse;border: none;padding: 0 10px 0 0;text-align: center;">让微信公众号成为 AI 助手
+        </th>
+        <th style="border-collapse: collapse;border: none;padding: 0 10px 0 0;text-align: center;">在企业微信中集成一个 AI 助手
+        </th>
+    </tr>
+    <tr>
+        <td style="border-collapse: collapse;border: none;padding: 0 10px 0 0;"><img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2120582271/p830568.gif" width="220" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+         <td style="border-collapse: collapse;border: none;padding: 0 10px 0 0;"><img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9763691271/p825777.gif" width="220" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+        <td  style="border-collapse: collapse;border: none;padding: 0 10px 0 0;"><img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7752553271/p834112.gif" width="220" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+    </tr>
+    <tr>
+         <td style="border-collapse: collapse;border: none;padding: 0 10px 10px 0;text-align: center;"><a href='https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#c3982bca67jqn'>立即部署一个钉钉群机器助理</a>
+        </td>
+         <td style="border-collapse: collapse;border: none;padding: 0 10px 10px 0;text-align: center;"><a href='https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#9b3e0c1c88c6k'>立即部署一个微信公众号客服</a>
+        </td>
+        <td style="border-collapse: collapse;border: none;padding: 0 10px 10px 0;text-align: center;"><a href='https://www.aliyun.com/solution/tech-solution/build-a-chatbot-for-your-website-or-chat-system#56befd5038eti'>立即部署一个企业微信客服</a>
+        </td>
+    </tr>
+</table>
+
 
 > 参考本解决方案的步骤，你只需要提供相关配置信息，无需编写代码就可以实现各类端应用和百炼AI应用的关联。
 > 而在百炼上，你可以构建和优化专属AI助理，并提供私域知识库问答服务，从而为你的端应用提供AI能力。
@@ -119,9 +144,20 @@ AI与大模型已经在很多领域有了成功落地，以下案例涵盖了医
 ### 2.1 医疗领域：辅助诊断与健康管理
 在医疗领域，AI 与大模型的创新项目层出不穷。阿里云与[阿斯利康合作](http://www.djkpai.com/ai/177960.jhtml)，通过融入海量医学知识文献与医疗数据，让大模型可以生成药品的不良反应报告，提升医药研发效率。达摩院的医疗AI团队2020年开发了一款基于AI的大型辅助诊断系统[“达医智影”](https://www.xinhuanet.com/tech/20240223/ba113561f9974296aca94089befed8e1/c.html)，能够通过分析患者的CT影像快速准确地对新冠肺炎疑似病例进行诊断，诊断时间仅需20秒，准确率达到96%以上。此外，阿里巴巴与多家医院合作，通过其AI系统显著提升了肺部疾病的筛查效率，将原本需要几个小时的影像分析缩短到仅需数分钟。
 
-|通义仁心 |达医智影|
-|---|---|
-|<img src="https://img.alicdn.com/imgextra/i4/O1CN0115WDjD1WSxGsfYKec_!!6000000002788-2-tps-2840-1472.png" width="400" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">|<img src="https://img.alicdn.com/imgextra/i4/O1CN01wjYIYH242ZOEA8BAW_!!6000000007333-2-tps-900-487.png" width="400" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">|
+<table style='margin-left: 0;'>
+    <tr>
+        <th style="border-collapse: collapse;border: none;padding: 0 10px 0 0;text-align: center;">通义仁心
+        </th>
+        <th style="border-collapse: collapse;border: none;padding: 0 10px 0 0;text-align: center;">达医智影
+        </th>
+    </tr>
+    <tr>
+        <td height=200" style="border-collapse: collapse;border: none;padding: 0 10px 0 0;"><img src="https://img.alicdn.com/imgextra/i4/O1CN0115WDjD1WSxGsfYKec_!!6000000002788-2-tps-2840-1472.png" style="height:200;box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+         <td height="200"  style="border-collapse: collapse;border: none;padding: 0 10px 0 0;"><img src="https://img.alicdn.com/imgextra/i4/O1CN01wjYIYH242ZOEA8BAW_!!6000000007333-2-tps-900-487.png" style="height:200;box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+    </tr>
+</table>
 
 > 请注意：AI 建议和 AI 处方仅作为辅助信息，医疗决策应由专业医生根据患者的实际情况综合判断。
 
@@ -129,7 +165,16 @@ AI与大模型已经在很多领域有了成功落地，以下案例涵盖了医
 ### 2.2 娱乐产业：内容创作与虚拟偶像
 娱乐产业是另一个受益于大模型技术的重要领域。厘里是一位由AI深度融合技术驱动的虚拟偶像，能够与真人拍摄的场景无缝融合，展现出极高的真实性和拟人化程度。厘里曾出演真人热播剧《异人之下》，并在2023年世界互联网大会乌镇峰会上以全息互动形式亮相，吸引了大批参会人员的关注。此外，数字人技术方面的持续创新，通过AI驱动的方式进行实时互动，如虚拟主播和数字员工的应用，也能帮助品牌打造独具特色的直播场景和营销活动。
 
-<img src="https://img.alicdn.com/imgextra/i2/O1CN01DOzYDY1XFxeJLeuYL_!!6000000002895-2-tps-956-1698.png" height="400" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;"><img src="https://img.alicdn.com/imgextra/i2/O1CN01G7AOmz1RNqmIbhEdd_!!6000000002100-2-tps-864-1437.png" height="400" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;"><img src="https://img.alicdn.com/imgextra/i3/O1CN01PH880m1cG1mojjo6L_!!6000000003572-2-tps-1404-1868.png" height="400" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+<table style='margin-left: 0;'>
+    <tr>
+        <td height="400" style="border-collapse: collapse;border: none;padding: 0;"><img src="https://img.alicdn.com/imgextra/i2/O1CN01DOzYDY1XFxeJLeuYL_!!6000000002895-2-tps-956-1698.png" style="height:400; box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+         <td height="400" style="border-collapse: collapse;border: none;padding: 0;"><img src="https://img.alicdn.com/imgextra/i2/O1CN01G7AOmz1RNqmIbhEdd_!!6000000002100-2-tps-864-1437.png" style="height:400; box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+        </td>
+        <td height="400" style="border-collapse: collapse;border: none;padding: 0;"><img src="https://img.alicdn.com/imgextra/i3/O1CN01PH880m1cG1mojjo6L_!!6000000003572-2-tps-1404-1868.png" style="height:400; box-shadow: rgba(50, 44, 44, 0.21) 0px 1px 8px 0px;">
+        </td>
+    </tr>
+</table>
 
 > 虚拟主播技术 （Virtual Youtuber，简称Vtuber）涉及多个领域，而在多模态大模型的加持下虚拟主播走进现实。
 
