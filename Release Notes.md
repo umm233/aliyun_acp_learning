@@ -5,8 +5,6 @@
 
 我们注意到，原章节中对于阿里云百炼、函数计算、PAI-EAS、ACS/ACK 以及 ECS 上部署大规模模型的差异描述不够清晰。为此，我们对相关内容进行了改进，旨在帮助学员能够根据实际情况选择更适合的方式进行部署。
 
-<img src="https://img.alicdn.com/imgextra/i2/O1CN01eZXXeI1UpHLljjCJw_!!6000000002566-0-tps-2864-1470.jpg" width="650">
-
 <hr style="border: 2px solid black;">
 
 ## v1.2.4 增加 Reasoning Model 的使用技巧
