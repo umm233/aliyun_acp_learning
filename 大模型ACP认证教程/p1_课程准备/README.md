@@ -7,6 +7,15 @@
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01jh8Sp41NNc4S3fp4u_!!6000000001558-1-tps-512-176.gif" alt="PAI DSW Notebook Demo" width="500px">
 
 ## 开始
+
+### 视频教程
+<video width="960" height="540" controls playbackRate="1.2">
+    <source src="https://cloud.video.taobao.com/vod/lWmQQxay0s-puVoWV5rdJy7Rm3hwLvQXN797pj87LeY.mp4" type="video/mp4">
+</video>
+
+>注：本视频教程基于以下图文教程生成。[【如果演示视频不能正常播放，请点击这里】](https://cloud.video.taobao.com/vod/lWmQQxay0s-puVoWV5rdJy7Rm3hwLvQXN797pj87LeY.mp4)
+
+### 图文教程
 接下来将指引你基于 PAI DSW 准备在线学习环境。
 
 > 阿里云为新用户提供了 PAI DSW 的免费试用，在正式创建 PAI DSW 实例之前，你可以通过[阿里云的免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW)来领取免费试用额度。从领取免费试用后三个月内，你每月可以免费使用 250 计算时的CPU/GPU实例，即每月免费使用约430小时的 ecs.g6.xlarge CPU型实例或约35小时的 ecs.gn7i-c8g1.2xlarge GPU型实例。
