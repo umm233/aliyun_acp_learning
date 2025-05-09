@@ -1,9 +1,28 @@
 # Release Notes
 
+## v1.2.6 增加入门环境准备的指引视频
+> 变更时间：2025.05.07
+
+为了帮助不熟悉 Python 及 PAI DSW Notebook 的学员能够更快地上手，我们在环境准备章节增加了视频，引导学员从 0 开始、一步一步地准备好学习环境。
+
+<video width="800" height="540" controls playbackRate="1.2">
+    <source src="https://cloud.video.taobao.com/vod/lWmQQxay0s-puVoWV5rdJy7Rm3hwLvQXN797pj87LeY.mp4" type="video/mp4">
+</video>
+
+<hr style="border: 2px solid black;">
+
 ## v1.2.5 完善模型部署资源的选型指引
 > 变更时间：2025.04.02
 
 我们注意到，原章节中对于阿里云百炼、函数计算、PAI-EAS、ACS/ACK 以及 ECS 上部署大规模模型的差异描述不够清晰。为此，我们对相关内容进行了改进，旨在帮助学员能够根据实际情况选择更适合的方式进行部署。
+
+<table style="background-color: lightblue; color: black;">
+  <tr>
+    <td>1. 建议你优先使用阿里云百炼中按 token 计费的模型 API 服务，无需为闲置的 GPU 资源付费，有利于降低业务初期投入成本。如果需要部署模型，百炼提供界面化的模型部署，即使你对部署工程细节不熟悉，也能完成独占的模型部署。不过百炼上仅支持预置的模型部署、以及在百炼上微调后的模型。</br>
+2. 如果你要部署的模型不在百炼的支持范围内，可以选择 FC、PAI。FC 支持 serverless gpu 模式，并且无需运维底层资源。PAI 则提供了完善的模型版本管理、灰度发布等一系列模型开发、训练、部署全链路的支持。并且也有 Spot Instance 模式帮助节省成本。</br>
+3. 如果你的组织已经积累了基于 GPU 服务器或容器的模型部署经验，也可以直接使用 GPU 云服务器，或者使用 ACK 结合 GPU 云服务器节点，无需学习过多新概念。另外，你也可以考虑使用 ACS，可以帮助你在熟悉的 k8s 容器集群环境中，直接获取 GPU 算力容器，同时无需关注集群的运维。</td>
+  </tr>
+</table>
 
 <hr style="border: 2px solid black;">
 
