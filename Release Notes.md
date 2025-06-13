@@ -11,6 +11,8 @@
 | --- | --- | --- |
 | <img src="https://img.alicdn.com/imgextra/i1/O1CN01aic4PR267j6YjYUC5_!!6000000007615-2-tps-2000-1738.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i1/O1CN012BBhM51Ybm9dH80iN_!!6000000003078-2-tps-2016-1268.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i4/O1CN01z0JrhR1K3VuAqRZq7_!!6000000001108-2-tps-2006-1902.png" width="350"> |
 
+<hr style="border: 2px solid black;">
+
 ## V2.0.6 更新2.5节意图空间与知识空间的内容
 > 变更时间：2025.05.26
 
@@ -20,6 +22,7 @@
 
  <img src="https://img.alicdn.com/imgextra/i4/O1CN012qeVal1KGKzjmfq9U_!!6000000001136-2-tps-1954-1538.png" width="350">
 
+<hr style="border: 2px solid black;">
 
 ## V2.0.5 部分图像弹出放大，课后小测验答案可折叠
 > 变更时间：2025.05.26
@@ -29,7 +32,7 @@
 | --- | --- |
 | <img src="https://img.alicdn.com/imgextra/i1/O1CN015wowUp1hoReF2bdpm_!!6000000004324-2-tps-2250-946.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01XCOLvy1PLtsaq68Lr_!!6000000001825-2-tps-2212-1134.png" width="350"> |
 
-
+<hr style="border: 2px solid black;">
 
 ## V2.0.4 增加入门环境准备的指引视频
 > 变更时间：2025.05.07
