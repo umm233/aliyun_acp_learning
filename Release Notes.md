@@ -1,5 +1,15 @@
 # Release Notes
 
+## V2.0.6 更新2.4节RAG自动化评测内容
+> 变更时间：2025.06.13
+
+为了帮助学员深入理解RAG（检索增强生成）系统的质量评估与优化，我们详细阐述了如何构建和利用自动化评测体系，强调了高质量上下文的关键作用，并指导学员打造卓越的评测运营体系，以持续提升答疑机器人的性能。
+
+**优化/新增内容示例**
+| RAG自动化评测体系 | 上下文是RAG的生命线 | 打造卓越的评测运营体系 |
+| --- | --- | --- |
+| <img src="https://img.alicdn.com/imgextra/i1/O1CN01aic4PR267j6YjYUC5_!!6000000007615-2-tps-2000-1738.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i1/O1CN012BBhM51Ybm9dH80iN_!!6000000003078-2-tps-2016-1268.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i4/O1CN01z0JrhR1K3VuAqRZq7_!!6000000001108-2-tps-2006-1902.png" width="350"> |
+
 ## V2.0.5 部分图像弹出放大，课后小测验答案可折叠
 > 变更时间：2025.05.26
 
