@@ -37,6 +37,8 @@
 
 4. 在新建实例页面，填写实例名称、选择资源规格和镜像：
 
+    <img src="https://img.alicdn.com/imgextra/i1/O1CN01COwYFj1ERQtap4LW4_!!6000000000348-2-tps-2198-1388.png" width="500px">
+
   *   **实例名称**：可以填写**aliyun\_acp\_learning**，或者其他方便自己记忆和查找的名字。
     
   *   **资源规格**：推荐选择**免费试用页签**中的**ecs.g6.xlarge**。
