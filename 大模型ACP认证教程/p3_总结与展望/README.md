@@ -119,18 +119,9 @@ AI与大模型已经在很多领域有了成功落地，以下案例涵盖了医
 ### 2.1 医疗领域：辅助诊断与健康管理
 在医疗领域，AI 与大模型的创新项目层出不穷。阿里云与[阿斯利康合作](http://www.djkpai.com/ai/177960.jhtml)，通过融入海量医学知识文献与医疗数据，让大模型可以生成药品的不良反应报告，提升医药研发效率。达摩院的医疗AI团队2020年开发了一款基于AI的大型辅助诊断系统[“达医智影”](https://www.xinhuanet.com/tech/20240223/ba113561f9974296aca94089befed8e1/c.html)，能够通过分析患者的CT影像快速准确地对新冠肺炎疑似病例进行诊断，诊断时间仅需20秒，准确率达到96%以上。此外，阿里巴巴与多家医院合作，通过其AI系统显著提升了肺部疾病的筛查效率，将原本需要几个小时的影像分析缩短到仅需数分钟。
 
-
-<table style='margin-left: 0;'>
-    <tr>
-        <th style="border-collapse: collapse;border: none;padding: 0 10px 0 0;text-align: center;">达医智影
-        </th>
-    </tr>
-    <tr>
-         <td height="200"  style="border-collapse: collapse;border: none;padding: 0 10px 0 0;"><img src="https://img.alicdn.com/imgextra/i4/O1CN01wjYIYH242ZOEA8BAW_!!6000000007333-2-tps-900-487.png" style="height:200;box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
-        </td>
-    </tr>
-</table>
-
+|达医智影|
+|:---:|
+|<img src="https://img.alicdn.com/imgextra/i4/O1CN01wjYIYH242ZOEA8BAW_!!6000000007333-2-tps-900-487.png" style="height:200;box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">|
 
 > 请注意：AI 建议和 AI 处方仅作为辅助信息，医疗决策应由专业医生根据患者的实际情况综合判断。
 
