@@ -7,9 +7,9 @@
 
 **优化/新增内容示例**
 
-| 有限的上下文窗口 | 上下文工程框架 |
-| --- | --- |
-| <img src="https://img.alicdn.com/imgextra/i4/O1CN01ncBgjj1QUtHqeGPSO_!!6000000001980-2-tps-1432-522.png" width="350">|<img src="https://img.alicdn.com/imgextra/i2/O1CN019mb0pI1Ly8UyZgQCm_!!6000000001367-2-tps-1420-546.png" width="350"> |
+| 有限的上下文窗口 | 什么是上下文工程 | 上下文工程框架 |
+| --- | --- | -- |
+| <img src="https://img.alicdn.com/imgextra/i4/O1CN01ncBgjj1QUtHqeGPSO_!!6000000001980-2-tps-1432-522.png" width="350">| <img src="https://img.alicdn.com/imgextra/i3/O1CN01QM6I9d1tgS8w3pEzL_!!6000000005931-2-tps-1576-540.png" width="350">| <img src="https://img.alicdn.com/imgextra/i2/O1CN019mb0pI1Ly8UyZgQCm_!!6000000001367-2-tps-1420-546.png" width="350">
 <hr style="border: 2px solid black;">
 
 
