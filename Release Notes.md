@@ -1,5 +1,31 @@
 # Release Notes
 
+## V2.0.9 引入上下文工程框架
+> 变更时间：2025.07.24
+
+以上下文工程（Context Engineering）为核心方法论，将RAG、Prompt、Tool、Memory等主题整合成系统化的知识框架。帮助学员建立“上下文工程”的全局视野，深刻理解大模型应用开发的本质——为模型精准地构建和动态管理上下文信息。
+
+**优化/新增内容示例**
+
+| 有限的上下文窗口 | 上下文工程框架 |
+| --- | --- |
+| <img src="https://img.alicdn.com/imgextra/i4/O1CN01ncBgjj1QUtHqeGPSO_!!6000000001980-2-tps-1432-522.png" width="350">|<img src="https://img.alicdn.com/imgextra/i2/O1CN019mb0pI1Ly8UyZgQCm_!!6000000001367-2-tps-1420-546.png" width="350"> |
+<hr style="border: 2px solid black;">
+
+
+## V2.0.8 更新大模型应用安全合规内容
+> 变更时间：2025.06.27
+
+为了帮助学员深入理解当下大模型应用面临的安全风险以及如何构建多层次的安全防护体系。如引入阿里云AI安全护栏产品，并在百炼上启用有关防护能力。我们强化了安全合规章节的内容
+
+**优化/新增内容示例**
+| 针对大模型应用的多种攻击手段 | AI 安全护栏防护场景 | 基于词库黑名单做文本合规检测 |
+| --- | --- | --- |
+| <img src="https://img.alicdn.com/imgextra/i2/O1CN01hx4qq31FciGmKb1lz_!!6000000000508-2-tps-1342-498.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01hBwFvc1kTmdVqwhcO_!!6000000004685-2-tps-2810-1118.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01tjAleY1pc5txkPkj3_!!6000000005380-2-tps-2176-1348.png" width="350"> |
+
+
+
+
 ## V2.0.7 更新2.4节RAG自动化评测内容
 > 变更时间：2025.06.13
 
