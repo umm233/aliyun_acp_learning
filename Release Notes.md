@@ -1,5 +1,19 @@
 # Release Notes
 
+## V2.1.0 引入 Meta Prompting
+> 变更时间：2025.07.28
+
+通过引入“Meta Prompting”的介绍，指导学员如何利用大模型本身来系统性地迭代和优化提示词，包括定性指导和基于“参考答案”的自动化迭代，进一步加深了学员对提示词工程的理解。
+
+**优化/新增内容示例**
+
+| 使用大模型优化提示词 | 量化评估提示词效果 |
+| --- | --- |
+| <img src="https://img.alicdn.com/imgextra/i3/O1CN01q0nrKN29P4yKxLPR9_!!6000000008059-2-tps-1958-644.png" width="350"> |<img src="https://img.alicdn.com/imgextra/i1/O1CN010bVe661Oh8eDdczWx_!!6000000001736-2-tps-1148-665.png" width="350"> |
+
+<hr style="border: 2px solid black;">
+
+
 ## V2.0.9 引入上下文工程框架
 > 变更时间：2025.07.24
 
@@ -7,9 +21,9 @@
 
 **优化/新增内容示例**
 
-| 有限的上下文窗口 | 什么是上下文工程 | 上下文工程框架 |
-| --- | --- | -- |
-| <img src="https://img.alicdn.com/imgextra/i4/O1CN01ncBgjj1QUtHqeGPSO_!!6000000001980-2-tps-1432-522.png" width="350">| <img src="https://img.alicdn.com/imgextra/i3/O1CN01QM6I9d1tgS8w3pEzL_!!6000000005931-2-tps-1576-540.png" width="350">| <img src="https://img.alicdn.com/imgextra/i2/O1CN019mb0pI1Ly8UyZgQCm_!!6000000001367-2-tps-1420-546.png" width="350">
+| 有限的上下文窗口 | 上下文工程框架 |
+| --- | --- |
+| <img src="https://img.alicdn.com/imgextra/i4/O1CN01ncBgjj1QUtHqeGPSO_!!6000000001980-2-tps-1432-522.png" width="350">|<img src="https://img.alicdn.com/imgextra/i2/O1CN019mb0pI1Ly8UyZgQCm_!!6000000001367-2-tps-1420-546.png" width="350"> |
 <hr style="border: 2px solid black;">
 
 
@@ -21,8 +35,7 @@
 **优化/新增内容示例**
 | 针对大模型应用的多种攻击手段 | AI 安全护栏防护场景 | 基于词库黑名单做文本合规检测 |
 | --- | --- | --- |
-| <img src="https://img.alicdn.com/imgextra/i2/O1CN01hx4qq31FciGmKb1lz_!!6000000000508-2-tps-1342-498.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01hBwFvc1kTmdVqwhcO_!!6000000004685-2-tps-2810-1118.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01tjAleY1pc5txkPkj3_!!6000000005380-2-tps-2176-1348.png" width="350"> |
-
+| <img src="https://img.alicdn.com/imgextra/i3/O1CN01xwEyRB24ETizb5Lod_!!6000000007359-2-tps-850-735.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01hBwFvc1kTmdVqwhcO_!!6000000004685-2-tps-2810-1118.png" width="350"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01tjAleY1pc5txkPkj3_!!6000000005380-2-tps-2176-1348.png" width="350"> |
 
 
 
