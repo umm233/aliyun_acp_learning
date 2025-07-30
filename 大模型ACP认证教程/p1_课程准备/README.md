@@ -194,7 +194,15 @@ A2: 这是因为双击图片所在的 Markdown 块后就进入了编辑模式，
 
 Q3: 我注意到 Git 仓库有更新，应该怎么拉取到最新代码？
 
-A3: 你可以在 Terminal 中依次运行以下两个命令：
+A3: 你可以在命令行（ Terminal ）中操作。
+
+请先确认你所在的文件夹，通常是 “aliyun_acp_learning”
+在命令行中通过 “cd” 指令切换当前目录，如：
+```shell
+cd aliyun_acp_learning
+```
+
+接着，你可以在命令行（ Terminal ）中依次运行以下命令：
 ```shell
 git checkout .
 git pull
