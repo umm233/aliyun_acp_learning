@@ -7,7 +7,7 @@ Hands-on practice is an essential part of learning about large language models (
 We recommend that you use [Data Science Workshop (DSW)](https://help.aliyun.com/zh/pai/user-guide/dsw-overview) on Alibaba Cloud's Artificial Intelligence Platform (PAI) to complete your coursework. With PAI DSW, you can run code while reading the course documentation to better understand and apply LLMs.
 ## Getting Started
 
-### I. Create an Alibaba cloud account
+### I. Create an Alibaba Cloud account
 
 Please follow the instructions below based on your region:
 
@@ -35,7 +35,7 @@ Please follow the instructions below based on your region:
 2. Fill in the following information:
 
    - **Instance Name**: e.g., `alibabacloud_acp_learning`
-   - **Resource Specifications**: Choose a suitable ECS specification based on your needs. Since there is no free trial, ensure that your account has sufficient balance or credit card linked.
+   - **Resource Specifications**: Choose a suitable ECS specification based on your needs. Since there is no free trial, ensure that your account has sufficient balance or a linked credit card.
      > For most course exercises, a CPU-based instance like `ecs.g6.xlarge` is sufficient. You can switch to GPU instances when necessary for specific chapters.
 
      <img src="https://img.alicdn.com/imgextra/i3/O1CN01pZ8CwZ1PGrXEujG79_!!6000000001814-2-tps-3436-1716.png" width="800px">
@@ -117,7 +117,7 @@ Continue running the following commands sequentially in the `Terminal` to instal
 # Create a Python virtual environment named llm_learn using the venv module
 python3 -m venv llm_learn
 
-# Enter the llm_learn virtual environment
+# Activate the llm_learn virtual environment
 source llm_learn/bin/activate
 
 # Upgrade pip within the virtual environment
@@ -158,7 +158,7 @@ Once you have successfully completed the steps above, you can start learning the
 
 ## Further reading
 
-To facilitate reading, you can open the guide interface for the current document via the left menu:
+To facilitate reading, you can open the Table of Contents for the current document via the left menu:
 
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01kRbOpl1nh0wMz29TB_!!6000000005120-2-tps-1818-1690.png" width="600px">
 
