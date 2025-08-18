@@ -180,7 +180,7 @@ If you don't like the dark theme, you can adjust it in the Settings menu at the 
 
 <img src="https://img.alicdn.com/imgextra/i2/O1CN012Q75ea1MQX3AG4D93_!!6000000001429-2-tps-1858-540.png" width="800px">
 
-**Q2: In Notebook, I can see the images, but why does they disappear when I double-click the Markdown block containing them?**
+**Q2: In Notebook, I can see the images, but why do they disappear when I double-click the Markdown block containing them?**
 
 **A2:** This is because double-clicking a Markdown block enters **edit mode**. In this mode, images are not rendered. Simply click outside the Markdown block (for example, into a code cell) to return to **view mode**, and the image will reappear.
 
