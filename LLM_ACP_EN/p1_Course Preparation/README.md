@@ -14,7 +14,7 @@ Please follow the instructions below based on your region:
 - **International users**: [Alibaba Cloud International Site](https://www.alibabacloud.com)  
   > If you are an international user, make sure to complete your identity verification and set up your payment method before getting started. Please note that the international site does not offer a free trial, so a valid payment method is required for service usage.
 
-- **Mainland China users**: [Aliyun Official Website](https://www.aliyun.com)  
+- **Chinese mainland users**: [Aliyun Official Website](https://www.aliyun.com)  
   > If you are a new user of **PAI DSW (Data Science Workshop)**, you can apply for a **free trial quota** through Aliyun's Free Trial program.  
   > After claiming the free trial, you will receive **250 free compute hours per month** of CPU/GPU instances for three months. This is approximately:
   > - **430 hours/month** of usage for an `ecs.g6.xlarge` CPU instance, or  
@@ -83,12 +83,12 @@ Execute the following command in the DSW Terminal to download a script that auto
 
 
 ```bash
-wget https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh
+wget https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/LLM/en/alibabacloud_llm_acp_install.sh
 bash aliyun_llm_acp_install.sh
 ```
 
 
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01xyuBfZ1ps7jnlsDal_!!6000000005415-2-tps-2388-1076.png" width="800px">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01iWqgMe1fMqZeWM32D_!!6000000003993-2-tps-2520-554.png" width="800px">
 
 If this step executes successfully, you can skip the following manual installation steps.
 #### 2. Manual Installation
