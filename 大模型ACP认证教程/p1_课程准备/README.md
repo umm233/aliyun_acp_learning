@@ -18,19 +18,22 @@
 ### 图文教程
 接下来将指引你基于 PAI DSW 准备在线学习环境。
 
-
-
-### 步骤一： 创建 PAI DSW 实例
+### 步骤一：创建 PAI DSW 实例
 
 **免费试用**：如果你是 PAI DSW 的新用户，可以通过[阿里云的免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW)来领取免费试用额度。从领取免费试用后三个月内，你每月可以免费使用 250 计算时的CPU/GPU实例，即每月免费使用约430小时的 ecs.g6.xlarge CPU型实例或约35小时的 ecs.gn7i-c8g1.2xlarge GPU型实例。
 
 <img src="https://scms-prod-sh-public.oss-cn-shanghai.aliyuncs.com/course_picture/eswmhiaayvhezjzedlrf.png" width="260px" alt="免费试用">
 
-如果没有免费试用额度，可以通过如下方式创建：
+> **注意**：免费试用资源在使用后**必须手动停止**，否则额度耗尽或到期后将**自动转为按量付费**。详细操作见本文末尾的**如何停止实例与避免扣费**。
+
+> 如果你**没有免费试用资格**，或不想使用 PAI DSW，也可以直接使用 [ModelScope 的免费 Notebook 功能](https://modelscope.cn/my/mynotebook) 完成本教程的学习。
+
+如果你已领取免费试用或计划正常开通，请按以下步骤创建实例：
+
 1.  前往[PAI控制台](https://pai.console.aliyun.com/?regionId=cn-hangzhou#/workspace/overview)。
     
 2.  如果你没有开通PAI平台服务，根据指引开通PAI并创建默认工作空间，点击**一键开通**。等待开通完成后，点击**进入控制台**。
-
+    
     <img src="https://img.alicdn.com/imgextra/i4/O1CN01RWJ2Qr1Q17YDtnLKp_!!6000000001915-2-tps-1672-1014.png" width="600px">
 
 3.  点击左侧边栏的**交互式建模（DSW）**，点击**新建实例**。
@@ -53,7 +56,7 @@
       *   **镜像**：本例需要选择`CPU类型`的镜像，推荐使用 `python 版本为 3.10` 的镜像方便后续配置，你可以通过下图方式筛选符合条件的最新镜像（如：modelscope:1.23.1-pytorch2.3.1-cpu-py310-ubuntu22.04）。 
 
           <img src="https://img.alicdn.com/imgextra/i2/O1CN01ZVCibE1es9zqe9BPv_!!6000000003926-0-tps-1886-1240.jpg" width="800px">
-
+          
 5. 其它保持默认，单击**确定**，完成实例的创建，实例创建通常不会超过5分钟。
 
     <img src="https://img.alicdn.com/imgextra/i3/O1CN013NKRsk1EFyyI9Sw3C_!!6000000000323-0-tps-1852-962.jpg" width="600px">
@@ -62,18 +65,16 @@
 
     <img src="https://img.alicdn.com/imgextra/i2/O1CN01S61kqY29kbYF456Pq_!!6000000008106-0-tps-1916-596.jpg" width="600px">
 
-> **重要提示：管理免费资源以避免额外计费**
+> ### **【必读】如何停止实例与避免扣费**
+> 
+> 免费试用额度会自动抵扣 DSW 实例的费用，但**额度耗尽或到期后，若不手动停止实例，将自动转为按量付费并产生账单**。
+> 
+> 因此，在不使用实例时，请**务必**返回 DSW 实例列表页面，对实例执行 **停止** 或 **删除** 操作。
 >
-> 免费试用额度（计算时）会自动抵扣你创建的 DSW 实例所产生的费用。但请务必注意：**额度耗尽或到期后，若不手动停止实例，系统将自动转为按量付费模式，并从你的账户扣费**。
->
-> 因此，在不使用实例时，请务必前往 DSW 实例列表页面，对相应的实例执行 **停止** 或 **删除** 操作，以节省额度并避免产生预期外的费用。
->
-> *   **停止实例**：将中止计算资源（CPU/GPU）的计费。
-> *   **删除实例**：将彻底释放所有相关资源，并中止**所有**计费，包括因扩容系统盘而产生的存储费用。如果你希望完全停止计费，推荐执行此操作。
->
-> 更多关于免费试用的规则、资源释放的详细步骤，请参阅官方文档：[**PAI 免费试用指南**](https://help.aliyun.com/zh/pai/getting-started/free-trial-guide)。
-
-> 如果你没有免费额度，可以尝试使用[ModelScope的Notebook功能](https://modelscope.cn/my/mynotebook)完成本教程学习。
+> *   **停止**：中止计算资源（CPU/GPU）的计费，保留存储。
+> *   **删除**：彻底释放所有资源，中止**所有**计费（包括可能产生的存储费用）。
+> 
+> 更多规则、资源释放的详细步骤，请参阅官方文档：[**PAI 免费试用领取、使用和释放**](https://help.aliyun.com/zh/pai/getting-started/free-trial-guide)。
 
 
 
