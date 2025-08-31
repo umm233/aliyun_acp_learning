@@ -42,33 +42,6 @@
 在阿里云大模型ACP认证课程中，你将作为一位教育内容开发公司的员工，构建一个基于大模型的答疑机器人，从而解决新员工入职频繁答疑的问题；随后在公司需要教育课程时，你会利用大模型生成多种形式的教学内容，帮助公司完成业务目标。
 通过这两个项目的练习，希望你可以思考如何将大模型的能力带入到不同的行业中，最终可以面向不同的业务场景设计并实施大模型驱动的解决方案。
 
-<style>
-    table {
-      width: 80%;
-      margin: 20px; /* Center the table */
-      border-collapse: collapse; /* Collapse borders for a cleaner look */
-      font-family: sans-serif;
-    }
-
-    th, td {
-      padding: 10px;
-      text-align: left;
-      border: 1px solid #ddd; /* Light gray border */
-    }
-
-    th {
-      background-color: #f2f2f2; /* Light gray background for header */
-      font-weight: bold;
-    }
-
-    tr:nth-child(even) { /* Zebra striping */
-      background-color: #f9f9f9;
-    }
-
-    tr:hover { /* Highlight row on hover */
-      background-color: #e0f2ff; /* Light blue */
-    }
-</style>
 
 <table>
 <thead>
@@ -254,12 +227,13 @@
 ### 1.自动安装
 如果你对Linux环境熟悉，你可以体验使用脚本自动完成课程文件下载和依赖项安装。
 
-点击下载[aliyun_llm_acp_install](https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh)脚本，
-在 DSW 的 Linux 环境，或启动 MAC 的命令行界面，输入如下命令，即可完成项目安装。
+在 DSW 的 Linux 环境，或启动 MAC 的命令行界面，点击下载[aliyun_llm_acp_install脚本](https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh)，或者输入如下命令，即可完成项目安装。
 
-```
+```bash
+wget https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh
 /bin/bash aliyun_llm_acp_install.sh
 ```
+详情可参考[《1_0_计算环境准备》](./大模型ACP认证教程/p1_课程准备/1_0_计算环境准备.ipynb)
 
 顺利执行上述命令后，你可以使用你的百炼API-KEY，开始你的学习。
 
