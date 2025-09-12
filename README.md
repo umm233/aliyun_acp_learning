@@ -11,11 +11,12 @@
 
 > 如果你尚不具备编程基础，或者想从零开始了解大模型，请跳转:point_right:[阿里云大模型ACA工程师认证课程](https://edu.aliyun.com/course/3126500)
 
-## [最新更新](./Release%20Notes.md)
-- [2025.04.02] v1.2.5 完善模型部署资源的选型指引
-- [2025.03.25] v1.2.4 增加 Reasoning Model 的使用技巧
-- [2025.03.20] v1.2.3 优化实践环境的安装方法
-- [2024.10.14] v1.0.0 课程发布
+## [最近更新](./Release%20Notes.md)
+- [2025.07.28] V2.1.0 引入 Meta Prompting
+- [2025.07.24] V2.0.9 引入上下文工程框架
+- [2025.06.27] V2.0.8 更新大模型应用安全合规内容
+- [2025.06.13] V2.0.7 更新2.4节RAG自动化评测内容
+- 详情请关注[Release Notes](./Release%20Notes.md)
   
 ## 🪶  课程定位
 
@@ -128,15 +129,15 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型提示词工程</td>
-    <td style="padding:10px; border: 1px solid #ddd;">14%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">15%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型检索增强</td>
-    <td style="padding:10px; border: 1px solid #ddd;">19%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">20%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型微调</td>
-    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">多Agent及多模态应用</td>
@@ -144,7 +145,7 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">生产环境应用实践</td>
-    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
 
   </tbody>
