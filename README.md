@@ -11,11 +11,12 @@
 
 > 如果你尚不具备编程基础，或者想从零开始了解大模型，请跳转:point_right:[阿里云大模型ACA工程师认证课程](https://edu.aliyun.com/course/3126500)
 
-## [最新更新](./Release%20Notes.md)
-- [2025.04.02] v1.2.5 完善模型部署资源的选型指引
-- [2025.03.25] v1.2.4 增加 Reasoning Model 的使用技巧
-- [2025.03.20] v1.2.3 优化实践环境的安装方法
-- [2024.10.14] v1.0.0 课程发布
+## [最近更新](./Release%20Notes.md)
+- [2025.07.28] V2.1.0 引入 Meta Prompting
+- [2025.07.24] V2.0.9 引入上下文工程框架
+- [2025.06.27] V2.0.8 更新大模型应用安全合规内容
+- [2025.06.13] V2.0.7 更新2.4节RAG自动化评测内容
+- 详情见[Release Notes](./Release%20Notes.md)
   
 ## 🪶  课程定位
 
@@ -42,33 +43,6 @@
 在阿里云大模型ACP认证课程中，你将作为一位教育内容开发公司的员工，构建一个基于大模型的答疑机器人，从而解决新员工入职频繁答疑的问题；随后在公司需要教育课程时，你会利用大模型生成多种形式的教学内容，帮助公司完成业务目标。
 通过这两个项目的练习，希望你可以思考如何将大模型的能力带入到不同的行业中，最终可以面向不同的业务场景设计并实施大模型驱动的解决方案。
 
-<style>
-    table {
-      width: 80%;
-      margin: 20px; /* Center the table */
-      border-collapse: collapse; /* Collapse borders for a cleaner look */
-      font-family: sans-serif;
-    }
-
-    th, td {
-      padding: 10px;
-      text-align: left;
-      border: 1px solid #ddd; /* Light gray border */
-    }
-
-    th {
-      background-color: #f2f2f2; /* Light gray background for header */
-      font-weight: bold;
-    }
-
-    tr:nth-child(even) { /* Zebra striping */
-      background-color: #f9f9f9;
-    }
-
-    tr:hover { /* Highlight row on hover */
-      background-color: #e0f2ff; /* Light blue */
-    }
-</style>
 
 <table>
 <thead>
@@ -155,15 +129,15 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型提示词工程</td>
-    <td style="padding:10px; border: 1px solid #ddd;">14%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">15%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型检索增强</td>
-    <td style="padding:10px; border: 1px solid #ddd;">19%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">20%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">大模型微调</td>
-    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">多Agent及多模态应用</td>
@@ -171,7 +145,7 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">生产环境应用实践</td>
-    <td style="padding:10px; border: 1px solid #ddd;">17%</td>
+    <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
 
   </tbody>
@@ -254,12 +228,13 @@
 ### 1.自动安装
 如果你对Linux环境熟悉，你可以体验使用脚本自动完成课程文件下载和依赖项安装。
 
-点击下载[aliyun_llm_acp_install](https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh)脚本，
-在 DSW 的 Linux 环境，或启动 MAC 的命令行界面，输入如下命令，即可完成项目安装。
+在 DSW 的 Linux 环境，或启动 MAC 的命令行界面，点击下载[aliyun_llm_acp_install脚本](https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh)，或者输入如下命令，即可完成项目安装。
 
-```
+```bash
+wget https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/aliyun_llm_acp_install.sh
 /bin/bash aliyun_llm_acp_install.sh
 ```
+详情可参考[《1_0_计算环境准备》](./大模型ACP认证教程/p1_课程准备/1_0_计算环境准备.ipynb)
 
 顺利执行上述命令后，你可以使用你的百炼API-KEY，开始你的学习。
 

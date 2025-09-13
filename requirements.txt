@@ -25,6 +25,10 @@ oss2==2.19.0
 lagent==0.1.2
 mmengine==0.10.3
 ipywidgets==8.1.7
-modelscope
+modelscope==1.18.1
 alibabacloud_green20220302==2.21.2
-seaborn
+seaborn==0.13.2
+langchain==0.2.17 
+langchain-core==0.2.43 
+langchain-openai==0.1.25 
+langchain-text-splitters==0.2.4 
